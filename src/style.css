@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Angkor&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Angkor&family=Belgrano&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira+Stencil+One&family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Montserrat:wght@400;700;900&family=Oxanium:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quantico&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * {
+  @apply tracking-wide text-stone-700;
+} */
+
+ html {
+  scroll-behavior: smooth;
+}
+
+.router-link-active,
+.router-link-exact-active {
+  @apply text-[#69DFFF];
+}
+
+.socialIcon {
+  @apply text-xl text-stone-100 hover:text-[#69DFFF];
+}
+
+/* Remove outline and blue overlay on focus and active states */
+:focus,
+:active {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Remove focus ring for links and interactive elements */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus 
+iframe:focus
+{
+  outline: none;
+  box-shadow: none;
+}
+
+img:focus,
+img:active {
+  outline: none;
+  box-shadow: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+/* remove blue overlay when clicking an image */
+* { -webkit-tap-highlight-color: rgba(0,0,0,0);  
+   -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+   user-select: none; }
+
+   @keyframes scroll-dot {
+  0% {
+    transform: translate(20%, -50%);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translate(270%, -50%);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(20%, -50%);
+    opacity: 0.8;
+  }
+}
+
+.animate-scroll-dot {
+  animation: scroll-dot 5s infinite ease-in-out;
+}
+
+.fade-enter-active, .fade-leave-active { transition: opacity .5s ease; }
+.fade-enter-from,  .fade-leave-to      { opacity: 0; }
+
+@keyframes float1 {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-25px) rotate(10deg);
+  }
+}
+
+@keyframes float2 {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-40px) rotate(-15deg);
+  }
+}
+
+@keyframes float3 {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-30px) rotate(20deg);
+  }
+}
+
+@keyframes bubble1 {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.7;
+  }
+  50% {
+    transform: translateY(-60px) scale(1.1);
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 0.7;
+  }
+}
+
+@keyframes bubble2 {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translateY(-80px) scale(1.2);
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 0.5;
+  }
+}
+
+/* Assign animation classes */
+.animate-float1 { animation: float1 5s ease-in-out infinite; }
+.animate-float2 { animation: float2 6s ease-in-out infinite; }
+.animate-float3 { animation: float3 7s ease-in-out infinite; }
+.animate-bubble1 { animation: bubble1 8s ease-in-out infinite; }
+.animate-bubble2 { animation: bubble2 10s ease-in-out infinite; }
+
+@keyframes float-up {
+  0% {
+    bottom: var(--start-bottom, -50px);
+    transform: translateX(0) scale(0.8);
+    opacity: 0.05;
+  }
+  20% {
+    opacity: 0.7;
+  }
+  50% {
+    bottom: 50%;
+    transform: translateX(-12px) scale(0.9);
+    opacity: 0.9;
+  }
+  85% {
+    bottom: 90%;
+    transform: translateX(10px) scale(0.95);
+    opacity: 0.6;
+  }
+  100% {
+    bottom: 105%;
+    transform: translateX(15px) scale(1);
+    opacity: 0.05;
+  }
+}
+
+.animate-float-up {
+  animation-name: float-up;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
