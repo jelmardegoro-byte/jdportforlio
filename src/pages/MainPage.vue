@@ -2,38 +2,6 @@
   <div
     class="relative overflow-hidden bg-[#0a1628]"
   >
-    <!-- <img
-      src="@/assets/dice2.png"
-      class="absolute top-[550px] sm:top-[500px] -right-[100px] sm:-right-[80px] xl:-right-[50px] z-10 object-contain w-[180px] h-[180px]"
-      alt="overlay 1"
-    />
-
-    <img
-      src="@/assets/coin.png"
-      class="absolute -top-[50px] -right-[140px] lg:top-0 lg:-right-[50px] z-10 object-contain w-[180px] h-[180px]"
-      alt="overlay 1"
-    />
-
-    <img
-      src="@/assets/dart.png"
-      class="absolute top-[600px] -left-[100px] sm:-left-[50px] z-10 object-contain w-[200px] h-[200px]"
-      alt="overlay 1"
-    /> -->
-
-    <!-- HERO OVERLAYS -->
-
-    <!-- <img
-      src="@/assets/triple-coins-left.png"
-      class="absolute top-[265px] -left-[150px] sm:-left-[100px] md:-left-[30px] xl:left-[210px] z-10 object-contain w-[340px] h-[340px]"
-      alt="overlay 1"
-    />
-
-    <img
-      src="@/assets/triple-coins-right.png"
-      class="absolute top-[100px] -right-[150px] sm:-right-[90px] md:-right-[10px] xl:right-[220px] z-10 object-contain w-[340px] h-[340px]"
-      alt="overlay 2"
-    /> -->
-
     <!-- HERO SECTION -->
     <section
       id="home"
@@ -102,7 +70,7 @@
               href="#about"
               class="w-full sm:w-auto px-7 py-3 rounded-full border border-white/40 bg-black/30 hover:bg-white/10 backdrop-blur-sm text-white font-medium text-sm transition-all duration-200 hover:scale-105 active:scale-95 inline-flex items-center justify-center text-center"
             >
-              Free VA Resources
+              About Jimmer
             </a>
           </div>
 
@@ -399,7 +367,7 @@
               What I can set up for you
             </h2>
             <p class="text-[#a0b0c6] text-sm sm:text-base max-w-xl mx-auto font-sans leading-relaxed">
-              A look at the systems I build for clients &mdash; swap this section for real screenshots or case studies.
+              A look at the systems I build for clients.
             </p>
           </div>
 
@@ -529,7 +497,7 @@
               What clients are saying
             </h2>
             <p class="text-[#b8a99a] text-sm sm:text-base max-w-xl mx-auto">
-              Replace with real quotes once you have them from clients.
+              
             </p>
           </div>
 
