@@ -510,18 +510,19 @@
               <div>
                 <span class="text-2xl text-[#c8ad87] font-serif block mb-3">&ldquo;</span>
                 <p class="text-[#b8a99a] text-sm italic leading-relaxed mb-6">
-                  Jimmer set up systems that gave me back at least 10 hours a week. My inbox has never been this calm.
+                  For the past ten years, Jimmer and I worked together on several projects. Developing and implementing digital strategies to hyper localized campigns for small businesses. With his efforts, we were able to reach 500k+ audience in one of our projects, a total of 2M engagements in span of 3 months.<br>
+                  I am grateful that I was able to work with Jimmer. With his eye on digital trends and the power of targeted campaigns, I am hoping we could reach more people and work more projects in the future.
                 </p>
               </div>
               <div class="flex items-center gap-3 pt-4 border-t border-[#1e3050]/60">
                 <div
                   class="w-10 h-10 rounded-full bg-[#c8ad87] text-[#0a1628] font-serif font-bold flex items-center justify-center text-sm shadow-md"
                 >
-                  A
+                  1
                 </div>
                 <div>
-                  <h4 class="text-white font-bold text-sm">Client Name</h4>
-                  <p class="text-[#b8a99a] text-xs">Founder, Company</p>
+                  <h4 class="text-white font-bold text-sm">Michael Vicente</h4>
+                  <p class="text-[#b8a99a] text-xs">Senior Solutions Consultant | Digital Customer Experience (DCX) @ Capgemini | Enhancing Digital Customer Experiences</p>
                 </div>
               </div>
             </div>
@@ -533,18 +534,18 @@
               <div>
                 <span class="text-2xl text-[#c8ad87] font-serif block mb-3">&ldquo;</span>
                 <p class="text-[#b8a99a] text-sm italic leading-relaxed mb-6">
-                  Working with Jimmer felt like hiring an entire ops department. Highly recommend for any growing team.
+                  I had the pleasure of working with Jimmer, and he's a standout when it comes to customer support leadership. In the fast-paced environment of a start-up, priorities often shift, but Jimmer always handled changes seamlessly and without hesitation. Despite the challenges of different time zones, he was easy to coordinate and communicate with, and he consistently motivated his team while holding them accountable for their performance. His positive attitude and professionalism made him a joy to work with, and I highly recommend him for any role in customer support leadership.
                 </p>
               </div>
               <div class="flex items-center gap-3 pt-4 border-t border-[#1e3050]/60">
                 <div
                   class="w-10 h-10 rounded-full bg-[#c8ad87] text-[#0a1628] font-serif font-bold flex items-center justify-center text-sm shadow-md"
                 >
-                  B
+                  2
                 </div>
                 <div>
-                  <h4 class="text-white font-bold text-sm">Client Name</h4>
-                  <p class="text-[#b8a99a] text-xs">Coach</p>
+                  <h4 class="text-white font-bold text-sm">Tina Do</h4>
+                  <p class="text-[#b8a99a] text-xs">Program Specialist - Global @ Meta</p>
                 </div>
               </div>
             </div>
@@ -556,18 +557,18 @@
               <div>
                 <span class="text-2xl text-[#c8ad87] font-serif block mb-3">&ldquo;</span>
                 <p class="text-[#b8a99a] text-sm italic leading-relaxed mb-6">
-                  The training sessions meant my team could run our new systems without needing me every step of the way.
+                  I had the pleasure of working directly with Jimmer for over two years, during which he played a pivotal role in leading a team that contributed significantly to the company's success. His professionalism and attention to detail are unmatched. What stood out most about Jimmer was his proactive problem-solving approach and his dedication to continuous improvement. His ability to manage multiple priorities while consistently driving his team's performance made him invaluable to our operations. He will undoubtedly be an asset to any organization he joins in the future.
                 </p>
               </div>
               <div class="flex items-center gap-3 pt-4 border-t border-[#1e3050]/60">
                 <div
                   class="w-10 h-10 rounded-full bg-[#c8ad87] text-[#0a1628] font-serif font-bold flex items-center justify-center text-sm shadow-md"
                 >
-                  C
+                  3
                 </div>
                 <div>
-                  <h4 class="text-white font-bold text-sm">Client Name</h4>
-                  <p class="text-[#b8a99a] text-xs">Small Business Owner</p>
+                  <h4 class="text-white font-bold text-sm">Paige Gordon</h4>
+                  <p class="text-[#b8a99a] text-xs">Operations | Driving Efficiency and Growth for Global Tech Companies</p>
                 </div>
               </div>
             </div>
