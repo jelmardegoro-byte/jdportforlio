@@ -48,11 +48,11 @@
           </p>
 
           <!-- CTA Action Buttons -->
-          <div class="flex flex-col sm:flex-row items-center justify-center gap-3 w-full sm:w-auto max-w-xs sm:max-w-none mb-8 sm:mb-9">
+          <div class="flex flex-col sm:flex-row sm:flex-nowrap items-center justify-center gap-2.5 sm:gap-3 w-full max-w-none mb-8 sm:mb-9">
             <!-- Work With Me -->
             <a
               href="#contact"
-              class="w-full sm:w-auto px-7 py-3 rounded-full bg-[#c8ad87] hover:bg-[#e8d5b5] text-[#0a1628] font-bold text-sm transition-all duration-200 shadow-md hover:scale-105 active:scale-95 inline-flex items-center justify-center text-center"
+              class="w-full sm:w-auto px-5 sm:px-6 py-3 rounded-full bg-[#c8ad87] hover:bg-[#e8d5b5] text-[#0a1628] font-bold text-sm transition-all duration-200 shadow-md hover:scale-105 active:scale-95 inline-flex items-center justify-center text-center whitespace-nowrap"
             >
               Work With Me
             </a>
@@ -60,15 +60,25 @@
             <!-- See Services -->
             <a
               href="#services"
-              class="w-full sm:w-auto px-7 py-3 rounded-full border border-white/40 bg-black/30 hover:bg-white/10 backdrop-blur-sm text-white font-medium text-sm transition-all duration-200 hover:scale-105 active:scale-95 inline-flex items-center justify-center text-center"
+              class="w-full sm:w-auto px-5 sm:px-6 py-3 rounded-full border border-white/40 bg-black/30 hover:bg-white/10 backdrop-blur-sm text-white font-medium text-sm transition-all duration-200 hover:scale-105 active:scale-95 inline-flex items-center justify-center text-center whitespace-nowrap"
             >
               See Services
             </a>
 
             <!-- Free VA Resources -->
             <a
+              href="https://drive.google.com/drive/u/0/folders/10hqHgtDDTu3OJ_sSVnRRrXffcbMwMGth"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="w-full sm:w-auto px-5 sm:px-6 py-3 rounded-full border border-white/40 bg-black/30 hover:bg-white/10 backdrop-blur-sm text-white font-medium text-sm transition-all duration-200 hover:scale-105 active:scale-95 inline-flex items-center justify-center text-center whitespace-nowrap"
+            >
+              Free VA Resources
+            </a>
+
+            <!-- About Jimmer -->
+            <a
               href="#about"
-              class="w-full sm:w-auto px-7 py-3 rounded-full border border-white/40 bg-black/30 hover:bg-white/10 backdrop-blur-sm text-white font-medium text-sm transition-all duration-200 hover:scale-105 active:scale-95 inline-flex items-center justify-center text-center"
+              class="w-full sm:w-auto px-5 sm:px-6 py-3 rounded-full border border-white/40 bg-black/30 hover:bg-white/10 backdrop-blur-sm text-white font-medium text-sm transition-all duration-200 hover:scale-105 active:scale-95 inline-flex items-center justify-center text-center whitespace-nowrap"
             >
               About Jimmer
             </a>
@@ -151,7 +161,7 @@
           <!-- Stat 1 -->
           <div class="flex flex-col items-center justify-center p-4 md:p-6 text-center">
             <span class="font-serif text-3xl sm:text-4xl md:text-[40px] font-bold text-[#c8ad87] leading-none mb-3">
-              5+
+              10+
             </span>
             <span class="text-[11px] sm:text-xs font-medium tracking-[0.18em] text-[#a0b0c6] uppercase">
               YEARS EXPERIENCE
@@ -161,7 +171,7 @@
           <!-- Stat 2 -->
           <div class="flex flex-col items-center justify-center p-4 md:p-6 text-center">
             <span class="font-serif text-3xl sm:text-4xl md:text-[40px] font-bold text-[#c8ad87] leading-none mb-3">
-              30+
+              5+
             </span>
             <span class="text-[11px] sm:text-xs font-medium tracking-[0.18em] text-[#a0b0c6] uppercase">
               CLIENTS SUPPORTED
