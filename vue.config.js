@@ -1,7 +1,17 @@
 const WebpackObfuscator = require('webpack-obfuscator');
 
 module.exports = {
-  productionSourceMap: false, 
+  productionSourceMap: false,
+
+  pages: {
+    index: {
+      entry: 'src/main.js',
+      template: 'public/index.html',
+      filename: 'index.html',
+      title: 'Jelmar Degoro — Personal Portfolio',
+    },
+  },
+
 
   configureWebpack: config => {
     if (process.env.NODE_ENV === 'production') {

@@ -8,9 +8,12 @@
         class="container mx-auto max-w-[1350px] flex justify-between items-center"
       >
         <!-- Logo -->
-        <a href="/" class="flex items-center gap-x-0.5 group">
-          <span class="font-serif text-xl sm:text-2xl font-bold tracking-tight text-white">workwith</span>
-          <span class="font-serif text-xl sm:text-2xl font-bold tracking-tight text-[#c8ad87]">jimmer</span>
+        <a href="/" class="flex flex-col group">
+          <div class="flex items-center gap-x-1">
+            <span class="font-sans text-lg sm:text-xl font-extrabold tracking-widest text-white uppercase">Jelmar</span>
+            <span class="font-sans text-lg sm:text-xl font-extrabold tracking-widest text-[#3b82f6] uppercase">Degoro</span>
+          </div>
+          <span class="text-[10px] sm:text-xs font-sans text-[#a0b0c6] tracking-wide mt-0.5">QA Analyst&nbsp;&nbsp;|&nbsp;&nbsp;Configuration Analyst&nbsp;&nbsp;|&nbsp;&nbsp;Software Testing</span>
         </a>
 
         <!-- Desktop Navigation -->
@@ -25,12 +28,23 @@
             {{ item.name }}
           </a>
 
-          <!-- Book a Call Button -->
+          <!-- Resume Link -->
+          <a
+            href="/Jelmar_Degoro_Resume.pdf"
+            target="_blank"
+            download="Jelmar_Degoro_Resume.pdf"
+            class="text-sm font-sans font-medium text-[#a0b0c6] hover:text-white transition-colors duration-200 flex items-center gap-1.5"
+          >
+            <span>Resume</span>
+            <svg class="w-3.5 h-3.5 text-[#3b82f6]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.5V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg>
+          </a>
+
+          <!-- Contact Button -->
           <a
             href="#contact"
-            class="ml-2 px-6 py-2.5 rounded-full bg-[#c8ad87] hover:bg-[#e8d5b5] text-[#0a1628] font-bold text-sm transition-all duration-200 shadow-md hover:scale-105 active:scale-95 inline-block text-center whitespace-nowrap"
+            class="ml-2 px-5 py-2 rounded-full border border-[#3b82f6] text-[#3b82f6] hover:bg-[#3b82f6] hover:text-white font-semibold text-sm transition-all duration-200 hover:scale-105 active:scale-95 inline-block text-center whitespace-nowrap"
           >
-            Book a Call
+            Contact
           </a>
         </div>
 
@@ -80,9 +94,12 @@
     >
       <div>
         <div class="flex justify-between items-center mb-8">
-          <a href="/" class="flex items-center gap-x-0.5" @click="closeSidebar">
-            <span class="font-serif text-xl font-bold text-white">workwith</span>
-            <span class="font-serif text-xl font-bold text-[#c8ad87]">jimmer</span>
+          <a href="/" class="flex flex-col" @click="closeSidebar">
+            <div class="flex items-center gap-x-1">
+              <span class="font-sans text-lg font-extrabold tracking-widest text-white uppercase">Jelmar</span>
+              <span class="font-sans text-lg font-extrabold tracking-widest text-[#3b82f6] uppercase">Degoro</span>
+            </div>
+            <span class="text-[10px] font-sans text-[#a0b0c6] tracking-wide">QA Analyst | Configuration Analyst</span>
           </a>
           <button
             @click="closeSidebar"
@@ -102,9 +119,19 @@
             :href="`#${item.id}`"
             @click="closeSidebar"
             class="text-base font-sans font-medium text-[#a0b0c6] hover:text-white py-1 transition-colors"
-            :class="{ 'text-[#c8ad87] font-semibold': activeSection === item.id }"
+            :class="{ 'text-[#3b82f6] font-semibold': activeSection === item.id }"
           >
             {{ item.name }}
+          </a>
+          <a
+            href="/Jelmar_Degoro_Resume.pdf"
+            target="_blank"
+            download="Jelmar_Degoro_Resume.pdf"
+            @click="closeSidebar"
+            class="text-base font-sans font-medium text-[#3b82f6] hover:text-blue-300 py-1 transition-colors flex items-center gap-2"
+          >
+            <span>Resume (PDF)</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.5V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg>
           </a>
         </nav>
       </div>
@@ -113,9 +140,9 @@
         <a
           href="#contact"
           @click="closeSidebar"
-          class="block w-full py-3 rounded-full bg-[#c8ad87] text-[#0a1628] font-bold text-center text-sm shadow-md"
+          class="block w-full py-3 rounded-full border border-[#3b82f6] text-[#3b82f6] hover:bg-[#3b82f6] hover:text-white font-semibold text-center text-sm transition-all duration-200"
         >
-          Book a Call
+          Contact
         </a>
       </div>
     </div>
@@ -144,10 +171,10 @@ export default {
       navItems: [
         { id: "home", name: "Home" },
         { id: "about", name: "About" },
-        { id: "services", name: "Services" },
-        { id: "portfolio", name: "Portfolio" },
-        { id: "testimonials", name: "Testimonials" },
-        { id: "contact", name: "Contact" },
+        { id: "skills", name: "Skills" },
+        { id: "experience", name: "Experience" },
+        { id: "projects", name: "Projects" },
+        { id: "certifications", name: "Certifications" },
       ],
     };
   },

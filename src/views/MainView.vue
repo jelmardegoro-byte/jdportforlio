@@ -41,7 +41,7 @@ export default {
         { threshold: 0.3 }
       );
 
-      ["home", "about", "services", "portfolio", "testimonials", "contact"].forEach((id) => {
+      ["home", "about", "skills", "experience", "projects", "certifications", "contact"].forEach((id) => {
         const element = document.getElementById(id);
         if (element) this.observer.observe(element);
       });
@@ -49,7 +49,7 @@ export default {
   },
   beforeUnmount() {
     if (this.observer) {
-      ["home", "about", "services", "portfolio", "testimonials", "contact"].forEach((id) => {
+      ["home", "about", "skills", "experience", "projects", "certifications", "contact"].forEach((id) => {
         const element = document.getElementById(id);
         if (element) this.observer.unobserve(element);
       });

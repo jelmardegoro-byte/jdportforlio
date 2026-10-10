@@ -35,7 +35,7 @@ const router = createRouter({
 });
 
 router.beforeEach((to, from, next) => {
-  document.title = 'Work With Jimmer — Virtual Assistant, Systems Expert & Educator';
+  document.title = 'Jelmar Degoro — Personal Portfolio';
   next();
 });
 
