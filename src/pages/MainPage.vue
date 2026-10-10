@@ -537,7 +537,7 @@
                 </div>
                 <div class="mt-4 pt-3 border-t border-slate-100">
                   <a
-                    href="https://github.com/jelmardegoro-byte"
+                    href="https://github.com/jelmardegoro-byte/jdportforlio"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="text-[#1d72f2] hover:text-[#175cd3] hover:underline inline-flex items-center gap-1.5 font-semibold text-xs sm:text-[12.5px]"
