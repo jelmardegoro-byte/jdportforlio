@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jdportforlio.vercel.app/sitemap.xml
-
+Sitemap: https://jelmardegoro.vercel.app/sitemap.xml
