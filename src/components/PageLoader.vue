@@ -126,15 +126,15 @@ let messageInterval;
 
 const progress = ref(0);
 let rafId;
-const DURATION = 3000; // 3 seconds synced with App.vue
+const DURATION = 950; // Snappy branded entrance
 
 onMounted(() => {
-  // Rotate status text smoothly every 600ms
+  // Rotate status text smoothly every 240ms
   let index = 0;
   messageInterval = setInterval(() => {
     index = (index + 1) % messages.length;
     currentMessage.value = messages[index];
-  }, 620);
+  }, 240);
 
   // Animate progress to 100%
   const start = performance.now();

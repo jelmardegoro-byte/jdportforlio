@@ -35,6 +35,12 @@
           Skills
         </a>
         <a
+          href="#techstack"
+          class="text-xs sm:text-[13px] font-sans font-medium text-[#a0b0c6] hover:text-white transition-colors duration-200"
+        >
+          Tech Stack
+        </a>
+        <a
           href="#projects"
           class="text-xs sm:text-[13px] font-sans font-medium text-[#a0b0c6] hover:text-white transition-colors duration-200"
         >

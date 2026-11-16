@@ -18,7 +18,7 @@ router.isReady().then(() => {
   setTimeout(() => {
     isAppLoading.value = false;
     window.scrollTo(0, 0);
-  }, 3000);
+  }, 950);
 });
 </script>
 
