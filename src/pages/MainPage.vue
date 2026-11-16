@@ -17,6 +17,12 @@
 
           <!-- LEFT: Text content -->
           <div class="flex-1 flex flex-col justify-center min-w-0 py-2 text-center md:text-left">
+            <!-- Status badge -->
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-sans font-medium w-fit mb-3 mx-auto md:mx-0">
+              <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+              Available for Opportunities
+            </div>
+
             <!-- HELLO, I'M label -->
             <p class="text-[#a0b8d8] text-xs sm:text-sm font-sans font-semibold tracking-[0.18em] uppercase mb-1.5">
               Hello, I'm
@@ -239,8 +245,8 @@
           </h2>
         </div>
 
-        <!-- Skills Grid: 6 Cards -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 sm:gap-4.5 lg:gap-4 xl:gap-5">
+        <!-- Skills Grid: 7 Cards -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-4 sm:gap-4.5 lg:gap-4 xl:gap-5">
           <!-- Card 1: Software QA & Testing -->
           <div class="bg-white rounded-2xl p-5 sm:p-6 lg:p-5 xl:p-6 flex flex-col items-center text-center shadow-xs border border-[#e2eaf5] hover:shadow-md hover:-translate-y-1 transition-all duration-300 h-full">
             <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-[#dbeafe] text-[#2563eb] flex items-center justify-center mb-4 sm:mb-5 flex-shrink-0">
@@ -302,7 +308,23 @@
             </p>
           </div>
 
-          <!-- Card 5: Frontend Development -->
+          <!-- Card 5: Backend Development -->
+          <div class="bg-white rounded-2xl p-5 sm:p-6 lg:p-5 xl:p-6 flex flex-col items-center text-center shadow-xs border border-[#e2eaf5] hover:shadow-md hover:-translate-y-1 transition-all duration-300 h-full">
+            <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-[#fce7f3] text-[#db2777] flex items-center justify-center mb-4 sm:mb-5 flex-shrink-0">
+              <!-- Laravel / server icon -->
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 14.25h13.5m-13.5 0a3 3 0 01-3-3m3 3a3 3 0 100 6h13.5a3 3 0 100-6m-16.5-3a3 3 0 013-3h13.5a3 3 0 013 3m-19.5 0a4.5 4.5 0 01.9-2.7L5.737 5.1a3.375 3.375 0 012.7-1.35h7.126c1.062 0 2.062.5 2.7 1.35l2.587 3.45a4.5 4.5 0 01.9 2.7m0 0a3 3 0 01-3 3m0 3h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008zm-3 6h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008z" />
+              </svg>
+            </div>
+            <h3 class="font-sans font-bold text-[#0a1628] text-sm sm:text-[15px] mb-2 leading-snug">
+              Backend Development
+            </h3>
+            <p class="text-[#64748b] text-xs sm:text-[12.5px] font-sans leading-relaxed">
+              Laravel, PHP, REST API, MySQL
+            </p>
+          </div>
+
+          <!-- Card 6: Frontend Development -->
           <div class="bg-white rounded-2xl p-5 sm:p-6 lg:p-5 xl:p-6 flex flex-col items-center text-center shadow-xs border border-[#e2eaf5] hover:shadow-md hover:-translate-y-1 transition-all duration-300 h-full">
             <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-[#d1fae5] text-[#059669] flex items-center justify-center mb-4 sm:mb-5 flex-shrink-0">
               <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -313,11 +335,11 @@
               Frontend Development
             </h3>
             <p class="text-[#64748b] text-xs sm:text-[12.5px] font-sans leading-relaxed">
-              HTML, CSS, JavaScript, Vue.js, Tailwind CSS
+              Vue.js, Tailwind CSS, JavaScript, HTML, CSS
             </p>
           </div>
 
-          <!-- Card 6: Troubleshooting -->
+          <!-- Card 7: Troubleshooting -->
           <div class="bg-white rounded-2xl p-5 sm:p-6 lg:p-5 xl:p-6 flex flex-col items-center text-center shadow-xs border border-[#e2eaf5] hover:shadow-md hover:-translate-y-1 transition-all duration-300 h-full">
             <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-[#ffedd5] text-[#d97706] flex items-center justify-center mb-4 sm:mb-5 flex-shrink-0">
               <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -332,6 +354,183 @@
             </p>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- TECH STACK SECTION -->
+    <section
+      id="techstack"
+      class="relative w-full bg-white py-12 sm:py-14 lg:py-16 px-5 sm:px-10 lg:px-16 xl:px-20 border-b border-slate-200"
+    >
+      <div class="max-w-[1300px] mx-auto">
+        <!-- Section Header -->
+        <div class="mb-8 sm:mb-10 text-center">
+          <p class="text-[#1d72f2] text-xs sm:text-[13px] font-sans font-bold tracking-[0.16em] uppercase mb-2">
+            TECHNOLOGY STACK
+          </p>
+          <h2 class="font-sans font-extrabold text-[#0a1628] text-2xl sm:text-3xl lg:text-[38px] xl:text-[40px] leading-tight tracking-tight mb-3">
+            Built With
+          </h2>
+          <p class="text-[#64748b] text-sm sm:text-base font-sans max-w-xl mx-auto leading-relaxed">
+            The technologies I use to design, build, and ship full-stack web applications — from API layer to pixel-perfect UI.
+          </p>
+        </div>
+
+        <!-- Two-column: Backend | Frontend -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 max-w-[900px] mx-auto">
+
+          <!-- Backend Column -->
+          <div class="bg-[#fdf2f8] rounded-2xl sm:rounded-3xl p-6 sm:p-8 border border-[#f9a8d4]/40 shadow-sm">
+            <div class="flex items-center gap-3 mb-5">
+              <!-- Laravel flame icon -->
+              <div class="w-9 h-9 rounded-xl bg-[#f43f5e] flex items-center justify-center flex-shrink-0 shadow-sm">
+                <svg class="w-5 h-5 text-white fill-current" viewBox="0 0 24 24">
+                  <path d="M14.5 2.1C14.5 2.1 14 7 11 9.5c-1.5 1.3-3 1.8-4.2 2-.6.1-1.1.1-1.5.1C3.5 11.6 2 10.4 2 8.6c0-1 .5-2 1.4-2.8C4.5 4.9 6.3 4.5 8 4.5c.4 0 .9 0 1.3.1-1.1-1-2.5-1.6-4-1.6C2.4 3 0 5.4 0 8.6c0 3.3 2.7 5.4 5.9 5.4.4 0 .8 0 1.2-.1C10.9 13.1 14 9.9 14 5.5c0-1.2-.2-2.3-.5-3.3l1 .1-.0-.1zM21.4 10.3c0 0-2.9 2.3-6.4 1.9-.8-.1-1.5-.3-2.1-.6.9 1.5 1.3 3.2 1.3 5 0 3.5-1.7 6.6-4.3 8.5 1 .3 2 .4 3.1.4 5.5 0 10-4.5 10-10 0-2-.6-3.9-1.6-5.2z"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-sans font-bold text-[#0a1628] text-base sm:text-lg leading-tight">Backend</h3>
+                <p class="text-[#db2777] text-xs font-semibold tracking-wide uppercase">Laravel · PHP</p>
+              </div>
+            </div>
+
+            <div class="space-y-3">
+              <!-- Laravel -->
+              <div class="flex items-center gap-3 p-3 bg-white rounded-xl border border-[#fce7f3] shadow-xs">
+                <span class="w-7 h-7 rounded-lg bg-[#f43f5e] flex items-center justify-center flex-shrink-0">
+                  <svg class="w-4 h-4 text-white fill-current" viewBox="0 0 24 24">
+                    <path d="M14.5 2.1C14.5 2.1 14 7 11 9.5c-1.5 1.3-3 1.8-4.2 2-.6.1-1.1.1-1.5.1C3.5 11.6 2 10.4 2 8.6c0-1 .5-2 1.4-2.8C4.5 4.9 6.3 4.5 8 4.5c.4 0 .9 0 1.3.1-1.1-1-2.5-1.6-4-1.6C2.4 3 0 5.4 0 8.6c0 3.3 2.7 5.4 5.9 5.4.4 0 .8 0 1.2-.1C10.9 13.1 14 9.9 14 5.5c0-1.2-.2-2.3-.5-3.3l1 .1-.0-.1zM21.4 10.3c0 0-2.9 2.3-6.4 1.9-.8-.1-1.5-.3-2.1-.6.9 1.5 1.3 3.2 1.3 5 0 3.5-1.7 6.6-4.3 8.5 1 .3 2 .4 3.1.4 5.5 0 10-4.5 10-10 0-2-.6-3.9-1.6-5.2z"/>
+                  </svg>
+                </span>
+                <div>
+                  <p class="font-sans font-semibold text-[#0a1628] text-sm leading-tight">Laravel</p>
+                  <p class="text-[#64748b] text-[11px] font-sans">MVC, Eloquent ORM, Artisan, Blade</p>
+                </div>
+              </div>
+              <!-- PHP -->
+              <div class="flex items-center gap-3 p-3 bg-white rounded-xl border border-[#fce7f3] shadow-xs">
+                <span class="w-7 h-7 rounded-lg bg-[#6366f1] flex items-center justify-center flex-shrink-0">
+                  <svg class="w-4 h-4 text-white fill-current" viewBox="0 0 24 24">
+                    <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm-1.25 16.518l-1.5-1.44 1.5-1.44 1.5 1.44-1.5 1.44zm3.5-3.518H9.75V9h4.5v4zm-6-4H7v4h1.25V9zm7.5 0H14.5v4h1.25V9z"/>
+                  </svg>
+                </span>
+                <div>
+                  <p class="font-sans font-semibold text-[#0a1628] text-sm leading-tight">PHP</p>
+                  <p class="text-[#64748b] text-[11px] font-sans">OOP, REST APIs, Middleware, Auth</p>
+                </div>
+              </div>
+              <!-- MySQL -->
+              <div class="flex items-center gap-3 p-3 bg-white rounded-xl border border-[#fce7f3] shadow-xs">
+                <span class="w-7 h-7 rounded-lg bg-[#0284c7] flex items-center justify-center flex-shrink-0">
+                  <svg class="w-4 h-4 text-white fill-current" viewBox="0 0 24 24">
+                    <path d="M12 3C7.58 3 4 4.79 4 7s3.58 4 8 4 8-1.79 8-4-3.58-4-8-4zm0 14c-4.42 0-8-1.79-8-4v2c0 2.21 3.58 4 8 4s8-1.79 8-4v-2c0 2.21-3.58 4-8 4zm0-5c-4.42 0-8-1.79-8-4v2c0 2.21 3.58 4 8 4s8-1.79 8-4v-2c0 2.21-3.58 4-8 4z"/>
+                  </svg>
+                </span>
+                <div>
+                  <p class="font-sans font-semibold text-[#0a1628] text-sm leading-tight">MySQL</p>
+                  <p class="text-[#64748b] text-[11px] font-sans">Migrations, Seeders, Query Builder</p>
+                </div>
+              </div>
+              <!-- REST API -->
+              <div class="flex items-center gap-3 p-3 bg-white rounded-xl border border-[#fce7f3] shadow-xs">
+                <span class="w-7 h-7 rounded-lg bg-[#059669] flex items-center justify-center flex-shrink-0">
+                  <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/>
+                  </svg>
+                </span>
+                <div>
+                  <p class="font-sans font-semibold text-[#0a1628] text-sm leading-tight">REST API</p>
+                  <p class="text-[#64748b] text-[11px] font-sans">JSON, Sanctum, API Resources</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Frontend Column -->
+          <div class="bg-[#f0fdf4] rounded-2xl sm:rounded-3xl p-6 sm:p-8 border border-[#bbf7d0]/60 shadow-sm">
+            <div class="flex items-center gap-3 mb-5">
+              <!-- Vue icon -->
+              <div class="w-9 h-9 rounded-xl bg-[#42b883] flex items-center justify-center flex-shrink-0 shadow-sm">
+                <svg class="w-5 h-5 text-white fill-current" viewBox="0 0 24 24">
+                  <path d="M24 1.61h-9.94L12 5.16 9.94 1.61H0l12 20.78zm-12 14.1L2.33 3.52H7.5L12 11.09l4.5-7.57h5.17z"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-sans font-bold text-[#0a1628] text-base sm:text-lg leading-tight">Frontend</h3>
+                <p class="text-[#059669] text-xs font-semibold tracking-wide uppercase">Vue.js · Tailwind CSS</p>
+              </div>
+            </div>
+
+            <div class="space-y-3">
+              <!-- Vue.js -->
+              <div class="flex items-center gap-3 p-3 bg-white rounded-xl border border-[#bbf7d0] shadow-xs">
+                <span class="w-7 h-7 rounded-lg bg-[#42b883] flex items-center justify-center flex-shrink-0">
+                  <svg class="w-4 h-4 text-white fill-current" viewBox="0 0 24 24">
+                    <path d="M24 1.61h-9.94L12 5.16 9.94 1.61H0l12 20.78zm-12 14.1L2.33 3.52H7.5L12 11.09l4.5-7.57h5.17z"/>
+                  </svg>
+                </span>
+                <div>
+                  <p class="font-sans font-semibold text-[#0a1628] text-sm leading-tight">Vue.js 3</p>
+                  <p class="text-[#64748b] text-[11px] font-sans">Composition API, Vue Router, Vuex</p>
+                </div>
+              </div>
+              <!-- Tailwind CSS -->
+              <div class="flex items-center gap-3 p-3 bg-white rounded-xl border border-[#bbf7d0] shadow-xs">
+                <span class="w-7 h-7 rounded-lg bg-[#0ea5e9] flex items-center justify-center flex-shrink-0">
+                  <svg class="w-4 h-4 text-white fill-current" viewBox="0 0 24 24">
+                    <path d="M12 6C9.33 6 7.67 7.33 7 10c1-1.33 2.17-1.83 3.5-1.5.76.19 1.31.74 1.91 1.35.98 1 2.09 2.15 4.59 2.15C19.67 12 21.33 10.67 22 8c-1 1.33-2.17 1.83-3.5 1.5-.76-.19-1.3-.74-1.91-1.35C15.61 7.15 14.5 6 12 6zm-4 6C5.33 12 3.67 13.33 3 16c1-1.33 2.17-1.83 3.5-1.5.76.19 1.3.74 1.91 1.35.98 1 2.09 2.15 4.59 2.15C15.67 18 17.33 16.67 18 14c-1 1.33-2.17 1.83-3.5 1.5-.76-.19-1.3-.74-1.91-1.35C11.61 13.15 10.5 12 8 12z"/>
+                  </svg>
+                </span>
+                <div>
+                  <p class="font-sans font-semibold text-[#0a1628] text-sm leading-tight">Tailwind CSS</p>
+                  <p class="text-[#64748b] text-[11px] font-sans">Utility-first, Responsive, Dark Mode</p>
+                </div>
+              </div>
+              <!-- JavaScript -->
+              <div class="flex items-center gap-3 p-3 bg-white rounded-xl border border-[#bbf7d0] shadow-xs">
+                <span class="w-7 h-7 rounded-lg bg-[#eab308] flex items-center justify-center flex-shrink-0">
+                  <svg class="w-4 h-4 text-white fill-current" viewBox="0 0 24 24">
+                    <path d="M0 0h24v24H0V0zm22.03 18.09c-.2-1.05-1-1.9-3.05-2.71-.75-.35-1.58-.58-1.83-1.14-.09-.32-.1-.5-.04-.7.19-.75.9-.97 1.5-.79.38.11.74.44.95.98 1.01-.66 1.01-.66 1.72-1.1-.27-.41-.4-.59-.58-.76-.62-.7-1.44-1.06-2.78-1.02l-.7.09c-.67.19-1.3.56-1.67 1.04-.56.63-.8 1.37-.72 2.19.14 1.5 1.13 2.26 2.8 2.76.84.26 2.17.46 2.3 1.2.09.6-.32 1.22-1.5 1.33-.97.09-1.6-.26-2.08-.88-.09-.11-.16-.22-.22-.34l-1.78 1.03c.3.65.72 1.21 1.28 1.6.98.69 2.26.9 3.6.73 1.69-.22 2.75-1.07 3.08-2.28zm-6.56-4.76c-.19.57-.69.93-1.37.93-.19 0-.4-.03-.61-.09-.45-.14-.83-.46-.95-.83-.09-.27-.05-.53.08-.74.19-.27.5-.46.88-.52h.09c.35 0 .68.11.9.31.26.22.42.56.42.94h.56z"/>
+                  </svg>
+                </span>
+                <div>
+                  <p class="font-sans font-semibold text-[#0a1628] text-sm leading-tight">JavaScript (ES6+)</p>
+                  <p class="text-[#64748b] text-[11px] font-sans">Async/Await, Axios, DOM, Modules</p>
+                </div>
+              </div>
+              <!-- HTML & CSS -->
+              <div class="flex items-center gap-3 p-3 bg-white rounded-xl border border-[#bbf7d0] shadow-xs">
+                <span class="w-7 h-7 rounded-lg bg-[#f97316] flex items-center justify-center flex-shrink-0">
+                  <svg class="w-4 h-4 text-white fill-current" viewBox="0 0 24 24">
+                    <path d="M4.136 3.012h15.729l-1.431 16.526-6.438 1.884-6.44-1.882L4.136 3.012zm5.66 7.967l-.199-2.242 7.328.001.2-2.235-9.724-.001.598 6.701h6.728l-.234 2.572-2.403.638-2.396-.637-.154-1.754H7.085l.302 3.564 4.618 1.279 4.624-1.28.629-7.606H9.796z"/>
+                  </svg>
+                </span>
+                <div>
+                  <p class="font-sans font-semibold text-[#0a1628] text-sm leading-tight">HTML5 &amp; CSS3</p>
+                  <p class="text-[#64748b] text-[11px] font-sans">Semantic HTML, Flexbox, Grid</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Bottom badge row -->
+        <div class="mt-8 sm:mt-10 flex flex-wrap justify-center gap-2.5 sm:gap-3">
+          <span class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#f43f5e]/10 text-[#e11d48] text-xs font-semibold border border-[#fecdd3]">Laravel</span>
+          <span class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#6366f1]/10 text-[#4f46e5] text-xs font-semibold border border-[#c7d2fe]">PHP</span>
+          <span class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#42b883]/10 text-[#16a34a] text-xs font-semibold border border-[#bbf7d0]">Vue.js 3</span>
+          <span class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#0ea5e9]/10 text-[#0284c7] text-xs font-semibold border border-[#bae6fd]">Tailwind CSS</span>
+          <span class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#eab308]/10 text-[#b45309] text-xs font-semibold border border-[#fde68a]">JavaScript</span>
+          <span class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#0284c7]/10 text-[#0369a1] text-xs font-semibold border border-[#bae6fd]">MySQL</span>
+          <span class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#1d72f2]/10 text-[#1d4ed8] text-xs font-semibold border border-[#bfdbfe]">REST API</span>
+          <span class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#64748b]/10 text-[#475569] text-xs font-semibold border border-[#cbd5e1]">Git / GitHub</span>
+          <span class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#f97316]/10 text-[#c2410c] text-xs font-semibold border border-[#fed7aa]">HTML5</span>
+          <span class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#1d4ed8]/10 text-[#1d4ed8] text-xs font-semibold border border-[#bfdbfe]">CSS3</span>
+          <span class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#7c3aed]/10 text-[#6d28d9] text-xs font-semibold border border-[#ddd6fe]">Postman</span>
+          <span class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#64748b]/10 text-[#475569] text-xs font-semibold border border-[#cbd5e1]">Vercel</span>
+        </div>
+
       </div>
     </section>
 
@@ -526,13 +725,13 @@
                     class="w-full h-36 sm:h-40 object-cover rounded-xl mb-4 bg-slate-100"
                   />
                   <h3 class="font-sans font-bold text-[#0a1628] text-sm sm:text-base mb-1">
-                    Vue.js Component Development
+                    Vue.js + Laravel Portfolio
                   </h3>
                   <p class="text-[#2563eb] text-xs sm:text-[12.5px] font-semibold mb-1.5">
-                    Frontend UI Library
+                    Full-Stack — Laravel Backend · Vue.js + Tailwind Frontend
                   </p>
                   <p class="text-[#64748b] text-xs sm:text-[12.5px] font-sans leading-relaxed">
-                    Using Tailwind CSS: Frontend development work focused on reusable UI components and styling.
+                    This portfolio — built with a Laravel REST API backend and a Vue.js 3 + Tailwind CSS frontend, deployed on Vercel.
                   </p>
                 </div>
                 <div class="mt-4 pt-3 border-t border-slate-100">
@@ -765,8 +964,22 @@
             </div>
           </div>
 
-          <!-- Right: Get In Touch Button -->
-          <div class="flex-shrink-0 w-full md:w-auto flex justify-start md:justify-end">
+          <!-- Right: Buttons -->
+          <div class="flex-shrink-0 w-full md:w-auto flex flex-wrap items-center justify-start md:justify-end gap-3">
+            <button
+              @click="copyEmail"
+              class="inline-flex items-center gap-2 px-5 py-2.5 sm:py-3 rounded-full border border-blue-500/40 bg-blue-500/10 hover:bg-blue-500/20 text-[#93c5fd] hover:text-white font-semibold text-xs sm:text-sm transition-all duration-200 active:scale-95 whitespace-nowrap"
+              :title="copied ? 'Email copied!' : 'Copy email to clipboard'"
+            >
+              <svg v-if="!copied" class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.666 3.888A2.25 2.25 0 0013.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 01-.75.75H9a.75.75 0 01-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 01-2.25 2.25H6.75A2.25 2.25 0 014.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 011.927-.184" />
+              </svg>
+              <svg v-else class="w-4 h-4 flex-shrink-0 text-emerald-400" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+              <span>{{ copied ? "Copied!" : "Copy Email" }}</span>
+            </button>
+
             <a
               href="mailto:jelmardegoro@gmail.com"
               class="inline-flex items-center gap-2 px-6 sm:px-7 py-2.5 sm:py-3 rounded-full bg-[#0070f3] hover:bg-[#0060df] text-white font-semibold text-xs sm:text-sm transition-all duration-200 shadow-md shadow-blue-500/25 hover:scale-105 active:scale-95 whitespace-nowrap"
@@ -787,6 +1000,24 @@
 import { defineComponent } from "vue";
 
 export default defineComponent({
+  data() {
+    return {
+      copied: false,
+    };
+  },
+  methods: {
+    async copyEmail() {
+      try {
+        await navigator.clipboard.writeText("jelmardegoro@gmail.com");
+        this.copied = true;
+        setTimeout(() => {
+          this.copied = false;
+        }, 2200);
+      } catch (e) {
+        window.location.href = "mailto:jelmardegoro@gmail.com";
+      }
+    },
+  },
   mounted() {
     this.$emit("sections-ready");
   },

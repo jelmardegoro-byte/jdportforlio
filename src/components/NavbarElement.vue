@@ -2,7 +2,8 @@
   <div class="relative">
     <!-- Navbar -->
     <nav
-      class="fixed top-0 left-0 w-full px-5 sm:px-10 py-4 bg-[#0a1628]/95 backdrop-blur-md transition-all duration-300 ease-in-out z-40 border-b border-[#24354c]"
+      class="fixed top-0 left-0 w-full px-5 sm:px-10 transition-all duration-300 ease-in-out z-40 backdrop-blur-md"
+      :class="isScrolled ? 'py-3.5 bg-[#0a1628]/95 shadow-lg shadow-black/40 border-b border-[#24354c]' : 'py-4.5 bg-[#0a1628]/90 border-b border-[#1c2c42]'"
     >
       <div
         class="container mx-auto max-w-[1350px] flex justify-between items-center"
@@ -10,7 +11,7 @@
         <!-- Logo -->
         <a href="/" class="flex flex-col group">
           <div class="flex items-center gap-x-1">
-            <span class="font-sans text-lg sm:text-xl font-extrabold tracking-widest text-white uppercase">Jelmar</span>
+            <span class="font-sans text-lg sm:text-xl font-extrabold tracking-widest text-white uppercase group-hover:text-[#60a5fa] transition-colors">Jelmar</span>
             <span class="font-sans text-lg sm:text-xl font-extrabold tracking-widest text-[#3b82f6] uppercase">Degoro</span>
           </div>
           <span class="text-[10px] sm:text-xs font-sans text-[#a0b0c6] tracking-wide mt-0.5">QA Analyst&nbsp;&nbsp;|&nbsp;&nbsp;Configuration Analyst&nbsp;&nbsp;|&nbsp;&nbsp;Software Testing</span>
@@ -22,8 +23,10 @@
             v-for="item in navItems"
             :key="item.id"
             :href="`#${item.id}`"
-            class="text-sm font-sans font-medium text-[#a0b0c6] hover:text-white transition-colors duration-200"
-            :class="{ 'text-white font-semibold': activeSection === item.id }"
+            class="relative py-1 text-sm font-sans font-medium transition-colors duration-200"
+            :class="activeSection === item.id 
+              ? 'text-white font-semibold after:content-[\'\'] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#3b82f6] after:rounded-full' 
+              : 'text-[#a0b0c6] hover:text-white'"
           >
             {{ item.name }}
           </a>
@@ -112,23 +115,26 @@
           </button>
         </div>
 
-        <nav class="flex flex-col gap-y-4">
+        <nav class="flex flex-col gap-y-2">
           <a
             v-for="item in navItems"
             :key="item.id"
             :href="`#${item.id}`"
             @click="closeSidebar"
-            class="text-base font-sans font-medium text-[#a0b0c6] hover:text-white py-1 transition-colors"
-            :class="{ 'text-[#3b82f6] font-semibold': activeSection === item.id }"
+            class="text-sm font-sans font-medium py-2 px-3 rounded-lg transition-colors flex items-center justify-between"
+            :class="activeSection === item.id 
+              ? 'text-white font-semibold bg-[#1d72f2]/20 border-l-2 border-[#3b82f6]' 
+              : 'text-[#a0b0c6] hover:text-white hover:bg-white/5'"
           >
-            {{ item.name }}
+            <span>{{ item.name }}</span>
+            <span v-if="activeSection === item.id" class="w-1.5 h-1.5 rounded-full bg-[#3b82f6]"></span>
           </a>
           <a
             href="/Jelmar_Degoro_Resume.pdf"
             target="_blank"
             download="Jelmar_Degoro_Resume.pdf"
             @click="closeSidebar"
-            class="text-base font-sans font-medium text-[#3b82f6] hover:text-blue-300 py-1 transition-colors flex items-center gap-2"
+            class="text-sm font-sans font-medium text-[#3b82f6] hover:text-blue-300 py-2 px-3 transition-colors flex items-center gap-2 mt-2 border-t border-slate-800 pt-3"
           >
             <span>Resume (PDF)</span>
             <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.5V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg>
@@ -140,7 +146,7 @@
         <a
           href="#contact"
           @click="closeSidebar"
-          class="block w-full py-3 rounded-full border border-[#3b82f6] text-[#3b82f6] hover:bg-[#3b82f6] hover:text-white font-semibold text-center text-sm transition-all duration-200"
+          class="block w-full py-2.5 rounded-full border border-[#3b82f6] text-[#3b82f6] hover:bg-[#3b82f6] hover:text-white font-semibold text-center text-sm transition-all duration-200"
         >
           Contact
         </a>
@@ -172,6 +178,7 @@ export default {
         { id: "home", name: "Home" },
         { id: "about", name: "About" },
         { id: "skills", name: "Skills" },
+        { id: "techstack", name: "Tech Stack" },
         { id: "experience", name: "Experience" },
         { id: "projects", name: "Projects" },
         { id: "certifications", name: "Certifications" },
@@ -186,14 +193,21 @@ export default {
       this.isSidebarOpen = false;
     },
     handleScroll() {
-      this.isScrolled = window.scrollY > 0;
+      this.isScrolled = window.scrollY > 20;
+    },
+    handleKeydown(e) {
+      if (e.key === "Escape" && this.isSidebarOpen) {
+        this.closeSidebar();
+      }
     },
   },
   mounted() {
-    window.addEventListener("scroll", this.handleScroll);
+    window.addEventListener("scroll", this.handleScroll, { passive: true });
+    window.addEventListener("keydown", this.handleKeydown);
   },
   beforeUnmount() {
     window.removeEventListener("scroll", this.handleScroll);
+    window.removeEventListener("keydown", this.handleKeydown);
   },
 };
 </script>
