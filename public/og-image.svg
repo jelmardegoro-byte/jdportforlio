@@ -35,7 +35,7 @@
 
   <!-- URL pill -->
   <rect x="90" y="490" width="320" height="44" rx="22" fill="#1d4ed8" opacity="0.85"/>
-  <text x="250" y="519" font-family="Inter, Arial, sans-serif" font-size="17" fill="#ffffff" text-anchor="middle">jdportforlio.vercel.app</text>
+  <text x="250" y="519" font-family="Inter, Arial, sans-serif" font-size="17" fill="#ffffff" text-anchor="middle">jelmardegoro.vercel.app</text>
 
   <!-- Right: decorative circle -->
   <circle cx="980" cy="315" r="200" fill="#1d4ed8" opacity="0.08"/>
