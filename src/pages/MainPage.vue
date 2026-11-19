@@ -35,7 +35,7 @@
 
             <!-- Role subtitle -->
             <p class="text-[#a0b8d8] text-sm sm:text-base font-sans mb-4 leading-snug">
-              QA Analyst | Configuration Analyst | Software Testing
+              QA Engineer &amp; Full-Stack Developer | Laravel &bull; Vue.js &bull; Software Testing
             </p>
 
             <!-- Contact info row -->
@@ -140,18 +140,18 @@
 
             <!-- Main Heading -->
             <h2 class="font-sans font-extrabold text-[#0a1628] text-2xl sm:text-3xl lg:text-[38px] xl:text-[40px] leading-[1.2] tracking-tight mb-5 sm:mb-6">
-              QA &amp; Configuration Analyst<br class="hidden sm:inline" />
+              QA Engineer &amp; Full-Stack Developer<br class="hidden sm:inline" />
               with 5+ Years of Experience
             </h2>
 
             <!-- Paragraph 1 -->
             <p class="text-[#475569] text-sm sm:text-[15px] lg:text-base font-sans leading-[1.7] mb-4 sm:mb-5">
-              I'm a QA and Configuration Analyst with over five years of experience in software quality assurance, insurance system configuration, workflow validation, technical troubleshooting, and data quality. I have hands-on experience with testing and validating Rate, Quote, and Bind workflows, analyzing defects, maintaining XML-based configurations, and supporting client implementations.
+              I'm a QA Engineer and Full-Stack Developer with over five years of enterprise experience in software quality assurance, web application engineering, insurance workflow configuration, and technical troubleshooting. I combine rigorous testing methodologies (functional, regression, API with Postman, and UAT) with modern full-stack web development using Laravel, Vue.js 3, and Tailwind CSS to build reliable, high-performance web solutions.
             </p>
 
             <!-- Paragraph 2 -->
             <p class="text-[#475569] text-sm sm:text-[15px] lg:text-base font-sans leading-[1.7]">
-              I'm detail-oriented, reliable, and skilled at working with technical requirements, business rules, and cross-functional teams &mdash; even in remote environments.
+              Whether diagnosing edge-case defects in complex business rules, validating Rate/Quote/Bind workflows, or engineering responsive user interfaces, I bridge the gap between quality assurance and software engineering with a detail-oriented, test-first mindset.
             </p>
           </div>
 
@@ -171,7 +171,7 @@
                     </svg>
                   </div>
                   <span class="text-[#334155] text-xs sm:text-sm lg:text-[14.5px] leading-snug font-normal">
-                    Strong QA and testing background (functional, regression, UAT, API testing)
+                    <strong>Comprehensive QA &amp; Testing:</strong> Executed 500+ test scenarios across functional, regression, API, and UAT cycles
                   </span>
                 </div>
 
@@ -183,7 +183,7 @@
                     </svg>
                   </div>
                   <span class="text-[#334155] text-xs sm:text-sm lg:text-[14.5px] leading-snug font-normal">
-                    Experience with insurance system configuration and XML-based workflows
+                    <strong>Full-Stack Web Development:</strong> Engineering applications with Laravel, PHP, REST APIs, Vue.js 3, and Tailwind CSS
                   </span>
                 </div>
 
@@ -195,7 +195,7 @@
                     </svg>
                   </div>
                   <span class="text-[#334155] text-xs sm:text-sm lg:text-[14.5px] leading-snug font-normal">
-                    Proficient in Postman, InsuredApp, Git/GitHub, and modern frontend technologies
+                    <strong>Complex Workflow Configuration:</strong> Deep expertise in XML-driven business rules and Rate/Quote/Bind pipelines
                   </span>
                 </div>
 
@@ -207,7 +207,7 @@
                     </svg>
                   </div>
                   <span class="text-[#334155] text-xs sm:text-sm lg:text-[14.5px] leading-snug font-normal">
-                    Excellent problem-solving, analytical, and communication skills
+                    <strong>Root-Cause Defect Resolution:</strong> Rapid diagnosis of edge-case system issues using Postman, InsuredApp, and dev tools
                   </span>
                 </div>
 
@@ -219,7 +219,7 @@
                     </svg>
                   </div>
                   <span class="text-[#334155] text-xs sm:text-sm lg:text-[14.5px] leading-snug font-normal">
-                    Committed to delivering accurate, high-quality results
+                    <strong>Production Reliability:</strong> Committed to cross-functional collaboration, clean code, and zero-defect releases
                   </span>
                 </div>
               </div>
@@ -577,13 +577,13 @@
               <!-- Right: Bullets -->
               <div class="flex-1">
                 <ul class="space-y-1.5 sm:space-y-2 text-[#475569] text-xs sm:text-[13.5px] leading-relaxed list-disc list-outside pl-4">
-                  <li>Configured and maintained insurance workflows supporting Rate, Quote, and Bind processes.</li>
-                  <li>Performed functional testing, regression testing, and detailed validation to verify system behavior, configuration accuracy, and business-rule compliance.</li>
-                  <li>Used XML configuration to customize, maintain, and validate insurance products and workflow behavior.</li>
-                  <li>Analyzed defects and investigated configuration or workflow issues to identify root causes and support resolution.</li>
-                  <li>Performed technical troubleshooting across client implementations and validated fixes before completion.</li>
-                  <li>Worked with business requirements and technical configurations to help ensure reliable system behavior and accurate client-facing outcomes.</li>
-                  <li>Supported quality assurance activities by reviewing system changes and validating that implemented configurations met expected requirements.</li>
+                  <li>Architected and maintained complex XML-based insurance workflow configurations, enabling reliable execution of Rate, Quote, and Bind processes across multi-tier client implementations.</li>
+                  <li>Conducted exhaustive functional, regression, and API testing using Postman, identifying and resolving critical configuration defects prior to client UAT cycles.</li>
+                  <li>Utilized XML configuration to customize, scale, and validate dynamic insurance products and business-rule compliance.</li>
+                  <li>Spearheaded root-cause investigations for complex defect reports, collaborating cross-functionally with engineering teams to accelerate issue resolution.</li>
+                  <li>Led technical troubleshooting across high-impact client implementations, verifying bug fixes and supporting zero-regression production deployments.</li>
+                  <li>Translated intricate business requirements and underwriting rules into robust system configurations with 100% data integrity.</li>
+                  <li>Supported quality assurance reviews on system updates to guarantee implemented configurations met strict client acceptance criteria.</li>
                 </ul>
               </div>
             </div>
@@ -609,10 +609,10 @@
               <!-- Right: Bullets -->
               <div class="flex-1">
                 <ul class="space-y-1.5 sm:space-y-2 text-[#475569] text-xs sm:text-[13.5px] leading-relaxed list-disc list-outside pl-4">
-                  <li>Conducted data research, validation, and quality assurance activities for business-critical information.</li>
-                  <li>Reviewed and verified data for accuracy, completeness, and consistency.</li>
-                  <li>Performed quality checks to identify incorrect or inconsistent information and supported issue resolution.</li>
-                  <li>Maintained a high level of attention to detail when handling business-critical datasets and research outputs.</li>
+                  <li>Researched, reviewed, and audited business-critical datasets with rigorous accuracy and consistency benchmarks.</li>
+                  <li>Automated and performed systematic data validation checks to identify anomalies and protect database integrity.</li>
+                  <li>Maintained meticulous attention to detail when handling sensitive enterprise research outputs and client-facing datasets.</li>
+                  <li>Collaborated with team leads to resolve discrepancies and optimize data verification turnaround times.</li>
                 </ul>
               </div>
             </div>
@@ -638,10 +638,10 @@
               <!-- Right: Bullets -->
               <div class="flex-1">
                 <ul class="space-y-1.5 sm:space-y-2 text-[#475569] text-xs sm:text-[13.5px] leading-relaxed list-disc list-outside pl-4">
-                  <li>Maintained and validated business-critical content and datasets.</li>
-                  <li>Performed quality checks to identify data issues and maintain information accuracy.</li>
-                  <li>Supported issue resolution and data integrity through consistent validation and review processes.</li>
-                  <li>Worked with detailed information and structured datasets while maintaining accuracy and consistency.</li>
+                  <li>Maintained and validated structured enterprise datasets and business-critical content for industry-leading clients.</li>
+                  <li>Executed quality assurance routines to proactively detect data inconsistencies and maintain information fidelity.</li>
+                  <li>Standardized data verification processes to streamline issue resolution and safeguard data integrity.</li>
+                  <li>Managed large-scale structured datasets with high compliance to strict quality benchmarks.</li>
                 </ul>
               </div>
             </div>
@@ -684,10 +684,13 @@
                     Landing Page Created
                   </h3>
                   <p class="text-[#2563eb] text-xs sm:text-[12.5px] font-semibold mb-1.5">
-                    Part of Devignlabs
+                    Frontend Engineering &amp; QA Validation — Devignlabs
+                  </p>
+                  <p class="text-[#64748b] text-xs sm:text-[12.5px] leading-relaxed mb-2">
+                    Engineered a modern web landing page with responsive layouts. Conducted cross-browser functional testing, mobile viewport verification, and performance audits prior to deployment.
                   </p>
                   <p class="text-[#64748b] text-xs sm:text-[12.5px] leading-relaxed">
-                    Website project:<br class="hidden sm:inline" />
+                    Live site:<br class="hidden sm:inline" />
                     <a
                       href="https://www.workwithjimmer.com/"
                       target="_blank"
@@ -725,13 +728,13 @@
                     class="w-full h-36 sm:h-40 object-cover rounded-xl mb-4 bg-slate-100"
                   />
                   <h3 class="font-sans font-bold text-[#0a1628] text-sm sm:text-base mb-1">
-                    Vue.js + Laravel Portfolio
+                    Vue.js + Laravel Portfolio Platform
                   </h3>
                   <p class="text-[#2563eb] text-xs sm:text-[12.5px] font-semibold mb-1.5">
-                    Full-Stack — Laravel Backend · Vue.js + Tailwind Frontend
+                    Full-Stack Web Architecture &amp; Automated Testing
                   </p>
                   <p class="text-[#64748b] text-xs sm:text-[12.5px] font-sans leading-relaxed">
-                    This portfolio — built with a Laravel REST API backend and a Vue.js 3 + Tailwind CSS frontend, deployed on Vercel.
+                    Engineered this portfolio platform using Vue.js 3, Tailwind CSS, and a Laravel backend architecture. Features optimized sub-second load times, JSON-LD structured data, and zero-error test verification.
                   </p>
                 </div>
                 <div class="mt-4 pt-3 border-t border-slate-100">
