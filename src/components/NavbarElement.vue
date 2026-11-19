@@ -14,7 +14,7 @@
             <span class="font-sans text-lg sm:text-xl font-extrabold tracking-widest text-white uppercase group-hover:text-[#60a5fa] transition-colors">Jelmar</span>
             <span class="font-sans text-lg sm:text-xl font-extrabold tracking-widest text-[#3b82f6] uppercase">Degoro</span>
           </div>
-          <span class="text-[10px] sm:text-xs font-sans text-[#a0b0c6] tracking-wide mt-0.5">QA Analyst&nbsp;&nbsp;|&nbsp;&nbsp;Configuration Analyst&nbsp;&nbsp;|&nbsp;&nbsp;Software Testing</span>
+          <span class="text-[10px] sm:text-xs font-sans text-[#a0b0c6] tracking-wide mt-0.5">QA Engineer&nbsp;&nbsp;|&nbsp;&nbsp;Full-Stack Web Developer&nbsp;&nbsp;|&nbsp;&nbsp;Software Testing</span>
         </a>
 
         <!-- Desktop Navigation -->
@@ -102,7 +102,7 @@
               <span class="font-sans text-lg font-extrabold tracking-widest text-white uppercase">Jelmar</span>
               <span class="font-sans text-lg font-extrabold tracking-widest text-[#3b82f6] uppercase">Degoro</span>
             </div>
-            <span class="text-[10px] font-sans text-[#a0b0c6] tracking-wide">QA Analyst | Configuration Analyst</span>
+            <span class="text-[10px] font-sans text-[#a0b0c6] tracking-wide">QA Engineer | Full-Stack Web Developer</span>
           </a>
           <button
             @click="closeSidebar"

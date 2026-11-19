@@ -68,7 +68,7 @@
 
       <!-- ROLE SUBTITLE -->
       <p class="text-xs sm:text-[13px] text-[#94a3b8] font-sans font-medium tracking-[0.2em] uppercase mb-7 text-center">
-        QA &amp; Configuration Analyst
+        QA Engineer &amp; Full-Stack Developer
       </p>
 
       <!-- PROGRESS TRACK & PERCENTAGE -->
