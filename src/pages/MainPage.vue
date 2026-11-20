@@ -84,6 +84,22 @@
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
               </a>
             </div>
+
+            <!-- Quick Credibility Metrics -->
+            <div class="mt-6 pt-5 border-t border-slate-700/60 grid grid-cols-3 gap-3 max-w-md mx-auto md:mx-0 text-center md:text-left">
+              <div>
+                <p class="font-sans font-extrabold text-white text-lg sm:text-xl">5+ <span class="text-[#3b82f6] text-sm font-semibold">Yrs</span></p>
+                <p class="text-[#8fa3bf] text-[11px] sm:text-xs">Enterprise QA</p>
+              </div>
+              <div class="border-x border-slate-700/60 px-2">
+                <p class="font-sans font-extrabold text-white text-lg sm:text-xl">500+ <span class="text-emerald-400 text-xs">✓</span></p>
+                <p class="text-[#8fa3bf] text-[11px] sm:text-xs">Test Cases &amp; APIs</p>
+              </div>
+              <div>
+                <p class="font-sans font-extrabold text-white text-lg sm:text-xl">100%</p>
+                <p class="text-[#8fa3bf] text-[11px] sm:text-xs">Data Integrity</p>
+              </div>
+            </div>
           </div>
 
           <!-- CENTER: Photo (hidden on smallest screens, shown md+) -->
@@ -245,10 +261,10 @@
           </h2>
         </div>
 
-        <!-- Skills Grid: 7 Cards -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-4 sm:gap-4.5 lg:gap-4 xl:gap-5">
+        <!-- Skills Grid: 8 Balanced Cards -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 lg:gap-5">
           <!-- Card 1: Software QA & Testing -->
-          <div class="bg-white rounded-2xl p-5 sm:p-6 lg:p-5 xl:p-6 flex flex-col items-center text-center shadow-xs border border-[#e2eaf5] hover:shadow-md hover:-translate-y-1 transition-all duration-300 h-full">
+          <div class="bg-white rounded-2xl p-5 sm:p-6 flex flex-col items-center text-center shadow-xs border border-[#e2eaf5] hover:shadow-md hover:-translate-y-1 transition-all duration-300 h-full">
             <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-[#dbeafe] text-[#2563eb] flex items-center justify-center mb-4 sm:mb-5 flex-shrink-0">
               <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
@@ -258,12 +274,12 @@
               Software QA &amp; Testing
             </h3>
             <p class="text-[#64748b] text-xs sm:text-[12.5px] font-sans leading-relaxed">
-              Functional, Regression, UAT, Defect Analysis
+              Functional, Regression, UAT, Defect Lifecycle Management
             </p>
           </div>
 
           <!-- Card 2: Configuration -->
-          <div class="bg-white rounded-2xl p-5 sm:p-6 lg:p-5 xl:p-6 flex flex-col items-center text-center shadow-xs border border-[#e2eaf5] hover:shadow-md hover:-translate-y-1 transition-all duration-300 h-full">
+          <div class="bg-white rounded-2xl p-5 sm:p-6 flex flex-col items-center text-center shadow-xs border border-[#e2eaf5] hover:shadow-md hover:-translate-y-1 transition-all duration-300 h-full">
             <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-[#dbeafe] text-[#2563eb] flex items-center justify-center mb-4 sm:mb-5 flex-shrink-0">
               <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.325.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.241-.438.613-.43.992a7.723 7.723 0 010 .255c-.008.378.137.75.43.991l1.004.827c.424.35.534.955.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.47 6.47 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.281c-.09.543-.56.94-1.11.94h-2.594c-.55 0-1.019-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.991a6.932 6.932 0 010-.255c.007-.38-.138-.751-.43-.992l-1.004-.827a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.086.22-.128.332-.183.582-.495.644-.869l.214-1.281z" />
@@ -274,12 +290,12 @@
               Configuration
             </h3>
             <p class="text-[#64748b] text-xs sm:text-[12.5px] font-sans leading-relaxed">
-              XML, Insurance Product, Rate/Quote/Bind
+              XML Architecture, Rate/Quote/Bind Workflows
             </p>
           </div>
 
           <!-- Card 3: Data & Workflow Validation -->
-          <div class="bg-white rounded-2xl p-5 sm:p-6 lg:p-5 xl:p-6 flex flex-col items-center text-center shadow-xs border border-[#e2eaf5] hover:shadow-md hover:-translate-y-1 transition-all duration-300 h-full">
+          <div class="bg-white rounded-2xl p-5 sm:p-6 flex flex-col items-center text-center shadow-xs border border-[#e2eaf5] hover:shadow-md hover:-translate-y-1 transition-all duration-300 h-full">
             <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-[#dbeafe] text-[#2563eb] flex items-center justify-center mb-4 sm:mb-5 flex-shrink-0">
               <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 5.625c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125" />
@@ -289,29 +305,28 @@
               Data &amp; Workflow Validation
             </h3>
             <p class="text-[#64748b] text-xs sm:text-[12.5px] font-sans leading-relaxed">
-              Business Rules, Data Integrity
+              Business Rules, Integrity Checks, Portal Alignment
             </p>
           </div>
 
-          <!-- Card 4: Technical Tools -->
-          <div class="bg-white rounded-2xl p-5 sm:p-6 lg:p-5 xl:p-6 flex flex-col items-center text-center shadow-xs border border-[#e2eaf5] hover:shadow-md hover:-translate-y-1 transition-all duration-300 h-full">
+          <!-- Card 4: Technical & API Tools -->
+          <div class="bg-white rounded-2xl p-5 sm:p-6 flex flex-col items-center text-center shadow-xs border border-[#e2eaf5] hover:shadow-md hover:-translate-y-1 transition-all duration-300 h-full">
             <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-[#ede9fe] text-[#7c3aed] flex items-center justify-center mb-4 sm:mb-5 flex-shrink-0">
               <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
               </svg>
             </div>
             <h3 class="font-sans font-bold text-[#0a1628] text-sm sm:text-[15px] mb-2 leading-snug">
-              Technical Tools
+              Technical &amp; API Tools
             </h3>
             <p class="text-[#64748b] text-xs sm:text-[12.5px] font-sans leading-relaxed">
-              Postman, InsuredApp, Git/GitHub
+              Postman, Newman, InsuredApp, Git/GitHub
             </p>
           </div>
 
           <!-- Card 5: Backend Development -->
-          <div class="bg-white rounded-2xl p-5 sm:p-6 lg:p-5 xl:p-6 flex flex-col items-center text-center shadow-xs border border-[#e2eaf5] hover:shadow-md hover:-translate-y-1 transition-all duration-300 h-full">
+          <div class="bg-white rounded-2xl p-5 sm:p-6 flex flex-col items-center text-center shadow-xs border border-[#e2eaf5] hover:shadow-md hover:-translate-y-1 transition-all duration-300 h-full">
             <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-[#fce7f3] text-[#db2777] flex items-center justify-center mb-4 sm:mb-5 flex-shrink-0">
-              <!-- Laravel / server icon -->
               <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 14.25h13.5m-13.5 0a3 3 0 01-3-3m3 3a3 3 0 100 6h13.5a3 3 0 100-6m-16.5-3a3 3 0 013-3h13.5a3 3 0 013 3m-19.5 0a4.5 4.5 0 01.9-2.7L5.737 5.1a3.375 3.375 0 012.7-1.35h7.126c1.062 0 2.062.5 2.7 1.35l2.587 3.45a4.5 4.5 0 01.9 2.7m0 0a3 3 0 01-3 3m0 3h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008zm-3 6h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008z" />
               </svg>
@@ -320,12 +335,12 @@
               Backend Development
             </h3>
             <p class="text-[#64748b] text-xs sm:text-[12.5px] font-sans leading-relaxed">
-              Laravel, PHP, REST API, MySQL
+              Laravel, PHP, REST APIs, MySQL, Eloquent
             </p>
           </div>
 
           <!-- Card 6: Frontend Development -->
-          <div class="bg-white rounded-2xl p-5 sm:p-6 lg:p-5 xl:p-6 flex flex-col items-center text-center shadow-xs border border-[#e2eaf5] hover:shadow-md hover:-translate-y-1 transition-all duration-300 h-full">
+          <div class="bg-white rounded-2xl p-5 sm:p-6 flex flex-col items-center text-center shadow-xs border border-[#e2eaf5] hover:shadow-md hover:-translate-y-1 transition-all duration-300 h-full">
             <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-[#d1fae5] text-[#059669] flex items-center justify-center mb-4 sm:mb-5 flex-shrink-0">
               <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0H3" />
@@ -335,22 +350,37 @@
               Frontend Development
             </h3>
             <p class="text-[#64748b] text-xs sm:text-[12.5px] font-sans leading-relaxed">
-              Vue.js, Tailwind CSS, JavaScript, HTML, CSS
+              Vue.js 3, Tailwind CSS, JavaScript ES6+, HTML5
             </p>
           </div>
 
-          <!-- Card 7: Troubleshooting -->
-          <div class="bg-white rounded-2xl p-5 sm:p-6 lg:p-5 xl:p-6 flex flex-col items-center text-center shadow-xs border border-[#e2eaf5] hover:shadow-md hover:-translate-y-1 transition-all duration-300 h-full">
+          <!-- Card 7: CI/CD & Automation -->
+          <div class="bg-white rounded-2xl p-5 sm:p-6 flex flex-col items-center text-center shadow-xs border border-[#e2eaf5] hover:shadow-md hover:-translate-y-1 transition-all duration-300 h-full">
+            <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-[#e0f2fe] text-[#0284c7] flex items-center justify-center mb-4 sm:mb-5 flex-shrink-0">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+              </svg>
+            </div>
+            <h3 class="font-sans font-bold text-[#0a1628] text-sm sm:text-[15px] mb-2 leading-snug">
+              CI/CD &amp; Test Automation
+            </h3>
+            <p class="text-[#64748b] text-xs sm:text-[12.5px] font-sans leading-relaxed">
+              GitHub Actions, Automated Newman CLI, Zero-Defect CI
+            </p>
+          </div>
+
+          <!-- Card 8: Troubleshooting -->
+          <div class="bg-white rounded-2xl p-5 sm:p-6 flex flex-col items-center text-center shadow-xs border border-[#e2eaf5] hover:shadow-md hover:-translate-y-1 transition-all duration-300 h-full">
             <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-[#ffedd5] text-[#d97706] flex items-center justify-center mb-4 sm:mb-5 flex-shrink-0">
               <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75a4.5 4.5 0 01-4.884 4.484c-1.076-.091-2.264.398-3.048 1.182l-7.25 7.25a2.25 2.25 0 01-3.182-3.182l7.25-7.25c.784-.784 1.273-1.972 1.182-3.048A4.5 4.5 0 0117.25 2.25a4.5 4.5 0 014.5 4.5z" />
               </svg>
             </div>
             <h3 class="font-sans font-bold text-[#0a1628] text-sm sm:text-[15px] mb-2 leading-snug">
-              Troubleshooting
+              Troubleshooting &amp; Support
             </h3>
             <p class="text-[#64748b] text-xs sm:text-[12.5px] font-sans leading-relaxed">
-              System Issues, Client Support
+              Root-Cause Analysis, Client Support, Hotfix QA
             </p>
           </div>
         </div>
@@ -674,19 +704,34 @@
           <!-- 3 Projects Cards Grid -->
           <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
             <!-- Card 1: Landing Page Created (Part of Devignlabs) -->
-            <div class="bg-white rounded-2xl p-5 border border-[#e2eaf5] shadow-xs hover:shadow-md transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full">
+            <div class="bg-white rounded-2xl p-5 border border-[#e2eaf5] shadow-xs hover:shadow-md transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full group">
               <div>
-                <img
-                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
-                  alt="Landing Page Created - Devignlabs"
-                  class="w-full h-40 object-cover rounded-xl mb-4 bg-slate-100"
-                />
+                <div class="relative overflow-hidden rounded-xl mb-4 bg-slate-100 h-44">
+                  <img
+                    src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
+                    alt="Landing Page Created - Devignlabs"
+                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                  <span class="absolute top-3 right-3 px-2.5 py-1 rounded-full text-[11px] font-semibold bg-blue-600/90 text-white backdrop-blur-sm shadow-sm">
+                    Live Production
+                  </span>
+                </div>
+
                 <h3 class="font-sans font-bold text-[#0a1628] text-base mb-1">
                   Landing Page Created
                 </h3>
                 <p class="text-[#2563eb] text-xs sm:text-[12.5px] font-semibold mb-2">
                   Frontend Engineering &amp; QA Validation — Devignlabs
                 </p>
+
+                <!-- Tech Badges -->
+                <div class="flex flex-wrap gap-1.5 mb-3">
+                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-slate-100 text-slate-700">HTML5</span>
+                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-sky-50 text-sky-700">Tailwind CSS</span>
+                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-blue-50 text-blue-700">Responsive UI</span>
+                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-emerald-50 text-emerald-700">Cross-Browser QA</span>
+                </div>
+
                 <p class="text-[#64748b] text-xs sm:text-[13px] leading-relaxed mb-3">
                   Engineered a modern web landing page with responsive layouts. Conducted cross-browser functional testing, mobile viewport verification, and performance audits prior to deployment.
                 </p>
@@ -710,7 +755,7 @@
                   href="https://www.workwithjimmer.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="text-[#1d72f2] hover:text-[#175cd3] hover:underline inline-flex items-center gap-1.5 font-semibold text-xs sm:text-[13px]"
+                  class="w-full inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-lg bg-blue-50 hover:bg-blue-100 text-[#1d72f2] font-semibold text-xs sm:text-[13px] transition-colors"
                 >
                   View Live Website
                   <svg class="w-3.5 h-3.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -721,20 +766,35 @@
             </div>
 
             <!-- Card 2: Vue.js Component Development -->
-            <div class="bg-white rounded-2xl p-5 border border-[#e2eaf5] shadow-xs hover:shadow-md transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full">
+            <div class="bg-white rounded-2xl p-5 border border-[#e2eaf5] shadow-xs hover:shadow-md transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full group">
               <div>
-                <img
-                  src="@/assets/vue-components.jpg"
-                  alt="Vue.js Component Development"
-                  class="w-full h-40 object-cover rounded-xl mb-4 bg-slate-100"
-                />
+                <div class="relative overflow-hidden rounded-xl mb-4 bg-slate-100 h-44">
+                  <img
+                    src="@/assets/vue-components.jpg"
+                    alt="Vue.js Component Development"
+                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                  <span class="absolute top-3 right-3 px-2.5 py-1 rounded-full text-[11px] font-semibold bg-emerald-600/90 text-white backdrop-blur-sm shadow-sm">
+                    Full-Stack Platform
+                  </span>
+                </div>
+
                 <h3 class="font-sans font-bold text-[#0a1628] text-base mb-1">
                   Vue.js + Laravel Portfolio Platform
                 </h3>
                 <p class="text-[#2563eb] text-xs sm:text-[12.5px] font-semibold mb-2">
                   Full-Stack Architecture &amp; Automated Testing
                 </p>
-                <p class="text-[#64748b] text-xs sm:text-[13px] font-sans leading-relaxed">
+
+                <!-- Tech Badges -->
+                <div class="flex flex-wrap gap-1.5 mb-3">
+                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-emerald-50 text-emerald-700">Vue.js 3</span>
+                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-rose-50 text-rose-700">Laravel</span>
+                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-sky-50 text-sky-700">Tailwind CSS</span>
+                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-indigo-50 text-indigo-700">REST API</span>
+                </div>
+
+                <p class="text-[#64748b] text-xs sm:text-[13px] font-sans leading-relaxed mb-3">
                   Engineered this portfolio platform using Vue.js 3, Tailwind CSS, and a Laravel backend architecture. Features optimized sub-second load times, JSON-LD structured data, and zero-error test verification.
                 </p>
               </div>
@@ -743,7 +803,7 @@
                   href="https://github.com/jelmardegoro-byte/jdportforlio"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="text-[#1d72f2] hover:text-[#175cd3] hover:underline inline-flex items-center gap-1.5 font-semibold text-xs sm:text-[13px]"
+                  class="w-full inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-lg bg-slate-100 hover:bg-slate-200 text-[#0a1628] font-semibold text-xs sm:text-[13px] transition-colors"
                 >
                   View Code on GitHub
                   <svg class="w-3.5 h-3.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -754,20 +814,36 @@
             </div>
 
             <!-- Card 3: REST API Validation & Regression Suite -->
-            <div class="bg-white rounded-2xl p-5 border border-[#e2eaf5] shadow-xs hover:shadow-md transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full">
+            <div class="bg-white rounded-2xl p-5 border border-[#e2eaf5] shadow-xs hover:shadow-md transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full group">
               <div>
-                <img
-                  src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80"
-                  alt="REST API Validation and Regression Suite"
-                  class="w-full h-40 object-cover rounded-xl mb-4 bg-slate-100"
-                />
+                <div class="relative overflow-hidden rounded-xl mb-4 bg-slate-100 h-44">
+                  <img
+                    src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80"
+                    alt="REST API Validation and Regression Suite"
+                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                  <span class="absolute top-3 right-3 px-2.5 py-1 rounded-full text-[11px] font-semibold bg-emerald-600/90 text-white backdrop-blur-sm shadow-sm flex items-center gap-1">
+                    <span class="w-1.5 h-1.5 rounded-full bg-white animate-pulse"></span>
+                    CI Passing
+                  </span>
+                </div>
+
                 <h3 class="font-sans font-bold text-[#0a1628] text-base mb-1">
                   REST API Validation &amp; Regression Suite
                 </h3>
                 <p class="text-[#2563eb] text-xs sm:text-[12.5px] font-semibold mb-2">
                   API Testing &amp; Defect Reporting — Postman &amp; Newman
                 </p>
-                <p class="text-[#64748b] text-xs sm:text-[13px] font-sans leading-relaxed">
+
+                <!-- Tech Badges -->
+                <div class="flex flex-wrap gap-1.5 mb-3">
+                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-amber-50 text-amber-700">Postman</span>
+                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-orange-50 text-orange-700">Newman CLI</span>
+                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-purple-50 text-purple-700">GitHub Actions</span>
+                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-blue-50 text-blue-700">REST API</span>
+                </div>
+
+                <p class="text-[#64748b] text-xs sm:text-[13px] font-sans leading-relaxed mb-3">
                   Sample Postman API testing project covering functional, negative, regression, and API-vs-portal data validation tests with structured defect reporting and Newman CLI automation.
                 </p>
               </div>
@@ -776,7 +852,7 @@
                   href="https://github.com/jelmardegoro-byte/postman-api-validation"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="text-[#1d72f2] hover:text-[#175cd3] hover:underline inline-flex items-center gap-1.5 font-semibold text-xs sm:text-[13px]"
+                  class="w-full inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-lg bg-slate-100 hover:bg-slate-200 text-[#0a1628] font-semibold text-xs sm:text-[13px] transition-colors"
                 >
                   View Repository on GitHub
                   <svg class="w-3.5 h-3.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -1024,6 +1100,11 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
               </svg>
             </a>
+            <div class="w-full text-center md:text-right mt-1">
+              <span class="text-xs text-[#8fa3bf] font-sans">
+                Direct: <a href="mailto:jelmardegoro@gmail.com" class="text-[#93c5fd] hover:underline">jelmardegoro@gmail.com</a> &bull; +63 968-443-6113 &bull; Davao City, PH
+              </span>
+            </div>
           </div>
         </div>
       </section>
