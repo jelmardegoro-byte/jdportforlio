@@ -656,223 +656,255 @@
       class="relative w-full bg-[#f0f6fc] py-14 sm:py-18 lg:py-22 px-5 sm:px-10 lg:px-16 xl:px-20 border-b border-slate-200 scroll-mt-20"
     >
       <div class="max-w-[1300px] mx-auto">
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-stretch">
+        <!-- FEATURED PROJECTS -->
+        <div class="mb-14 sm:mb-18">
+          <!-- Header -->
+          <div class="mb-8 sm:mb-10 text-left">
+            <p class="text-[#1d72f2] text-xs sm:text-[13px] font-sans font-bold tracking-[0.16em] uppercase mb-2">
+              SELECTED PROJECTS
+            </p>
+            <h2 class="font-sans font-extrabold text-[#0a1628] text-2xl sm:text-3xl lg:text-[34px] xl:text-[36px] leading-tight tracking-tight">
+              Featured Work
+            </h2>
+            <p class="text-[#64748b] text-sm sm:text-base font-sans max-w-2xl mt-2 leading-relaxed">
+              Real-world web engineering, automated API validation, and quality assurance solutions built for stability and scale.
+            </p>
+          </div>
 
-          <!-- LEFT COLUMN: SELECTED PROJECTS -->
-          <div class="lg:col-span-7 flex flex-col justify-between">
-            <!-- Header -->
-            <div class="mb-6 sm:mb-8 text-left">
-              <p class="text-[#1d72f2] text-xs sm:text-[13px] font-sans font-bold tracking-[0.16em] uppercase mb-2">
-                SELECTED PROJECTS
-              </p>
-              <h2 class="font-sans font-extrabold text-[#0a1628] text-2xl sm:text-3xl lg:text-[34px] xl:text-[36px] leading-tight tracking-tight">
-                Featured Work
-              </h2>
-            </div>
-
-            <!-- 2 Projects Cards Grid -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 sm:gap-6 flex-1">
-              <!-- Card 1: Landing Page Created (Part of Devignlabs) -->
-              <div class="bg-white rounded-2xl p-4 sm:p-5 border border-[#e2eaf5] shadow-xs hover:shadow-md transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full">
-                <div>
-                  <img
-                    src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
-                    alt="Landing Page Created - Devignlabs"
-                    class="w-full h-36 sm:h-40 object-cover rounded-xl mb-4 bg-slate-100"
-                  />
-                  <h3 class="font-sans font-bold text-[#0a1628] text-sm sm:text-base mb-1">
-                    Landing Page Created
-                  </h3>
-                  <p class="text-[#2563eb] text-xs sm:text-[12.5px] font-semibold mb-1.5">
-                    Frontend Engineering &amp; QA Validation — Devignlabs
-                  </p>
-                  <p class="text-[#64748b] text-xs sm:text-[12.5px] leading-relaxed mb-2">
-                    Engineered a modern web landing page with responsive layouts. Conducted cross-browser functional testing, mobile viewport verification, and performance audits prior to deployment.
-                  </p>
-                  <p class="text-[#64748b] text-xs sm:text-[12.5px] leading-relaxed">
-                    Live site:<br class="hidden sm:inline" />
-                    <a
-                      href="https://www.workwithjimmer.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      class="text-[#1d72f2] hover:text-[#175cd3] hover:underline inline-flex items-center gap-1 font-medium break-all mt-0.5"
-                    >
-                      https://www.workwithjimmer.com/
-                      <svg class="w-3.5 h-3.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-                      </svg>
-                    </a>
-                  </p>
-                </div>
-                <div class="mt-4 pt-3 border-t border-slate-100">
+          <!-- 3 Projects Cards Grid -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Card 1: Landing Page Created (Part of Devignlabs) -->
+            <div class="bg-white rounded-2xl p-5 border border-[#e2eaf5] shadow-xs hover:shadow-md transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full">
+              <div>
+                <img
+                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
+                  alt="Landing Page Created - Devignlabs"
+                  class="w-full h-40 object-cover rounded-xl mb-4 bg-slate-100"
+                />
+                <h3 class="font-sans font-bold text-[#0a1628] text-base mb-1">
+                  Landing Page Created
+                </h3>
+                <p class="text-[#2563eb] text-xs sm:text-[12.5px] font-semibold mb-2">
+                  Frontend Engineering &amp; QA Validation — Devignlabs
+                </p>
+                <p class="text-[#64748b] text-xs sm:text-[13px] leading-relaxed mb-3">
+                  Engineered a modern web landing page with responsive layouts. Conducted cross-browser functional testing, mobile viewport verification, and performance audits prior to deployment.
+                </p>
+                <p class="text-[#64748b] text-xs sm:text-[12.5px] leading-relaxed">
+                  Live site:<br />
                   <a
                     href="https://www.workwithjimmer.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="text-[#1d72f2] hover:text-[#175cd3] hover:underline inline-flex items-center gap-1.5 font-semibold text-xs sm:text-[12.5px]"
+                    class="text-[#1d72f2] hover:text-[#175cd3] hover:underline inline-flex items-center gap-1 font-medium break-all mt-0.5"
                   >
-                    View Live Website
+                    https://www.workwithjimmer.com/
                     <svg class="w-3.5 h-3.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
                     </svg>
                   </a>
-                </div>
+                </p>
               </div>
+              <div class="mt-4 pt-3 border-t border-slate-100">
+                <a
+                  href="https://www.workwithjimmer.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-[#1d72f2] hover:text-[#175cd3] hover:underline inline-flex items-center gap-1.5 font-semibold text-xs sm:text-[13px]"
+                >
+                  View Live Website
+                  <svg class="w-3.5 h-3.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
+              </div>
+            </div>
 
-              <!-- Card 2: Vue.js Component Development -->
-              <div class="bg-white rounded-2xl p-4 sm:p-5 border border-[#e2eaf5] shadow-xs hover:shadow-md transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full">
-                <div>
-                  <img
-                    src="@/assets/vue-components.jpg"
-                    alt="Vue.js Component Development"
-                    class="w-full h-36 sm:h-40 object-cover rounded-xl mb-4 bg-slate-100"
-                  />
-                  <h3 class="font-sans font-bold text-[#0a1628] text-sm sm:text-base mb-1">
-                    Vue.js + Laravel Portfolio Platform
-                  </h3>
-                  <p class="text-[#2563eb] text-xs sm:text-[12.5px] font-semibold mb-1.5">
-                    Full-Stack Web Architecture &amp; Automated Testing
-                  </p>
-                  <p class="text-[#64748b] text-xs sm:text-[12.5px] font-sans leading-relaxed">
-                    Engineered this portfolio platform using Vue.js 3, Tailwind CSS, and a Laravel backend architecture. Features optimized sub-second load times, JSON-LD structured data, and zero-error test verification.
-                  </p>
-                </div>
-                <div class="mt-4 pt-3 border-t border-slate-100">
-                  <a
-                    href="https://github.com/jelmardegoro-byte/jdportforlio"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="text-[#1d72f2] hover:text-[#175cd3] hover:underline inline-flex items-center gap-1.5 font-semibold text-xs sm:text-[12.5px]"
-                  >
-                    View Code on GitHub
-                    <svg class="w-3.5 h-3.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-                    </svg>
-                  </a>
-                </div>
+            <!-- Card 2: Vue.js Component Development -->
+            <div class="bg-white rounded-2xl p-5 border border-[#e2eaf5] shadow-xs hover:shadow-md transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full">
+              <div>
+                <img
+                  src="@/assets/vue-components.jpg"
+                  alt="Vue.js Component Development"
+                  class="w-full h-40 object-cover rounded-xl mb-4 bg-slate-100"
+                />
+                <h3 class="font-sans font-bold text-[#0a1628] text-base mb-1">
+                  Vue.js + Laravel Portfolio Platform
+                </h3>
+                <p class="text-[#2563eb] text-xs sm:text-[12.5px] font-semibold mb-2">
+                  Full-Stack Architecture &amp; Automated Testing
+                </p>
+                <p class="text-[#64748b] text-xs sm:text-[13px] font-sans leading-relaxed">
+                  Engineered this portfolio platform using Vue.js 3, Tailwind CSS, and a Laravel backend architecture. Features optimized sub-second load times, JSON-LD structured data, and zero-error test verification.
+                </p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-slate-100">
+                <a
+                  href="https://github.com/jelmardegoro-byte/jdportforlio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-[#1d72f2] hover:text-[#175cd3] hover:underline inline-flex items-center gap-1.5 font-semibold text-xs sm:text-[13px]"
+                >
+                  View Code on GitHub
+                  <svg class="w-3.5 h-3.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- Card 3: REST API Validation & Regression Suite -->
+            <div class="bg-white rounded-2xl p-5 border border-[#e2eaf5] shadow-xs hover:shadow-md transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full">
+              <div>
+                <img
+                  src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80"
+                  alt="REST API Validation and Regression Suite"
+                  class="w-full h-40 object-cover rounded-xl mb-4 bg-slate-100"
+                />
+                <h3 class="font-sans font-bold text-[#0a1628] text-base mb-1">
+                  REST API Validation &amp; Regression Suite
+                </h3>
+                <p class="text-[#2563eb] text-xs sm:text-[12.5px] font-semibold mb-2">
+                  API Testing &amp; Defect Reporting — Postman &amp; Newman
+                </p>
+                <p class="text-[#64748b] text-xs sm:text-[13px] font-sans leading-relaxed">
+                  Sample Postman API testing project covering functional, negative, regression, and API-vs-portal data validation tests with structured defect reporting and Newman CLI automation.
+                </p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-slate-100">
+                <a
+                  href="https://github.com/jelmardegoro-byte/postman-api-validation"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-[#1d72f2] hover:text-[#175cd3] hover:underline inline-flex items-center gap-1.5 font-semibold text-xs sm:text-[13px]"
+                >
+                  View Repository on GitHub
+                  <svg class="w-3.5 h-3.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- CERTIFICATIONS & PROFESSIONAL DEVELOPMENT -->
+        <div id="certifications" class="scroll-mt-24 pt-10 sm:pt-12 border-t border-[#dbe7f3]">
+          <!-- Header -->
+          <div class="mb-6 sm:mb-8 text-left">
+            <p class="text-[#1d72f2] text-xs sm:text-[13px] font-sans font-bold tracking-[0.16em] uppercase mb-2">
+              CERTIFICATIONS &amp; TRAINING
+            </p>
+            <h2 class="font-sans font-extrabold text-[#0a1628] text-2xl sm:text-3xl lg:text-[34px] xl:text-[36px] leading-tight tracking-tight">
+              Professional Development
+            </h2>
+          </div>
+
+          <!-- List of 6 Certifications -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            <!-- Cert 1 -->
+            <div class="flex items-start gap-3 sm:gap-3.5 p-4 rounded-xl bg-white border border-[#e2eaf5] shadow-xs">
+              <div class="flex-shrink-0 w-8 h-8 rounded-lg bg-[#e0efff] text-[#1d72f2] flex items-center justify-center mt-0.5">
+                <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-sans font-bold text-[#0a1628] text-xs sm:text-[13.5px] leading-snug">
+                  MS Office &ndash; Advanced Efficiency Training
+                </h4>
+                <p class="text-[#64748b] text-[11px] sm:text-xs mt-0.5">
+                  Udemy | Mar 11, 2022 | 2.5 hours
+                </p>
+              </div>
+            </div>
+
+            <!-- Cert 2 -->
+            <div class="flex items-start gap-3 sm:gap-3.5 p-4 rounded-xl bg-white border border-[#e2eaf5] shadow-xs">
+              <div class="flex-shrink-0 w-8 h-8 rounded-lg bg-[#e0efff] text-[#1d72f2] flex items-center justify-center mt-0.5">
+                <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-sans font-bold text-[#0a1628] text-xs sm:text-[13.5px] leading-snug">
+                  PowerPoint &amp; Excel Fusion (+250 PowerPoint Slides)
+                </h4>
+                <p class="text-[#64748b] text-[11px] sm:text-xs mt-0.5">
+                  Udemy | Jul 21, 2022 | 6.5 hours
+                </p>
+              </div>
+            </div>
+
+            <!-- Cert 3 -->
+            <div class="flex items-start gap-3 sm:gap-3.5 p-4 rounded-xl bg-white border border-[#e2eaf5] shadow-xs">
+              <div class="flex-shrink-0 w-8 h-8 rounded-lg bg-[#e0efff] text-[#1d72f2] flex items-center justify-center mt-0.5">
+                <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-sans font-bold text-[#0a1628] text-xs sm:text-[13.5px] leading-snug">
+                  Virtual Meetings with Confidence: 90-minute Guide
+                </h4>
+                <p class="text-[#64748b] text-[11px] sm:text-xs mt-0.5">
+                  Udemy | Apr 6, 2022 | 1.5 hours
+                </p>
+              </div>
+            </div>
+
+            <!-- Cert 4 -->
+            <div class="flex items-start gap-3 sm:gap-3.5 p-4 rounded-xl bg-white border border-[#e2eaf5] shadow-xs">
+              <div class="flex-shrink-0 w-8 h-8 rounded-lg bg-[#e0efff] text-[#1d72f2] flex items-center justify-center mt-0.5">
+                <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-sans font-bold text-[#0a1628] text-xs sm:text-[13.5px] leading-snug">
+                  Write Better Emails: Tactics for Smarter Team Communication
+                </h4>
+                <p class="text-[#64748b] text-[11px] sm:text-xs mt-0.5">
+                  Udemy | Jan 10, 2022 | 1.5 hours
+                </p>
+              </div>
+            </div>
+
+            <!-- Cert 5 -->
+            <div class="flex items-start gap-3 sm:gap-3.5 p-4 rounded-xl bg-white border border-[#e2eaf5] shadow-xs">
+              <div class="flex-shrink-0 w-8 h-8 rounded-lg bg-[#e0efff] text-[#1d72f2] flex items-center justify-center mt-0.5">
+                <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-sans font-bold text-[#0a1628] text-xs sm:text-[13.5px] leading-snug">
+                  Leadership 101 &ndash; Eight-Week Leadership Training
+                </h4>
+                <p class="text-[#64748b] text-[11px] sm:text-xs mt-0.5">
+                  PHL Talent Development | Dec 13, 2022
+                </p>
+              </div>
+            </div>
+
+            <!-- Cert 6 -->
+            <div class="flex items-start gap-3 sm:gap-3.5 p-4 rounded-xl bg-white border border-[#e2eaf5] shadow-xs">
+              <div class="flex-shrink-0 w-8 h-8 rounded-lg bg-[#e0efff] text-[#1d72f2] flex items-center justify-center mt-0.5">
+                <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-sans font-bold text-[#0a1628] text-xs sm:text-[13.5px] leading-snug">
+                  LEAD Program Level 2 &ndash; Pillars of Leadership
+                </h4>
+                <p class="text-[#64748b] text-[11px] sm:text-xs mt-0.5">
+                  PHL Talent Development | Sep 7, 2023
+                </p>
               </div>
             </div>
           </div>
-
-          <!-- RIGHT COLUMN: CERTIFICATIONS & TRAINING -->
-          <div id="certifications" class="lg:col-span-5 scroll-mt-24 flex flex-col justify-between">
-            <!-- Header -->
-            <div class="mb-6 sm:mb-8 text-left">
-              <p class="text-[#1d72f2] text-xs sm:text-[13px] font-sans font-bold tracking-[0.16em] uppercase mb-2">
-                CERTIFICATIONS &amp; TRAINING
-              </p>
-              <h2 class="font-sans font-extrabold text-[#0a1628] text-2xl sm:text-3xl lg:text-[34px] xl:text-[36px] leading-tight tracking-tight">
-                Professional Development
-              </h2>
-            </div>
-
-            <!-- List of 6 Certifications -->
-            <div class="space-y-4 sm:space-y-4.5 flex-1 flex flex-col justify-between">
-              <!-- Cert 1 -->
-              <div class="flex items-start gap-3 sm:gap-3.5">
-                <div class="flex-shrink-0 w-8 h-8 rounded-lg bg-[#e0efff] text-[#1d72f2] flex items-center justify-center mt-0.5">
-                  <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                  </svg>
-                </div>
-                <div>
-                  <h4 class="font-sans font-bold text-[#0a1628] text-xs sm:text-[13.5px] leading-snug">
-                    MS Office &ndash; Advanced Efficiency Training
-                  </h4>
-                  <p class="text-[#64748b] text-[11px] sm:text-xs mt-0.5">
-                    Udemy | Mar 11, 2022 | 2.5 hours
-                  </p>
-                </div>
-              </div>
-
-              <!-- Cert 2 -->
-              <div class="flex items-start gap-3 sm:gap-3.5">
-                <div class="flex-shrink-0 w-8 h-8 rounded-lg bg-[#e0efff] text-[#1d72f2] flex items-center justify-center mt-0.5">
-                  <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                  </svg>
-                </div>
-                <div>
-                  <h4 class="font-sans font-bold text-[#0a1628] text-xs sm:text-[13.5px] leading-snug">
-                    PowerPoint &amp; Excel Fusion (+250 PowerPoint Slides)
-                  </h4>
-                  <p class="text-[#64748b] text-[11px] sm:text-xs mt-0.5">
-                    Udemy | Jul 21, 2022 | 6.5 hours
-                  </p>
-                </div>
-              </div>
-
-              <!-- Cert 3 -->
-              <div class="flex items-start gap-3 sm:gap-3.5">
-                <div class="flex-shrink-0 w-8 h-8 rounded-lg bg-[#e0efff] text-[#1d72f2] flex items-center justify-center mt-0.5">
-                  <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                  </svg>
-                </div>
-                <div>
-                  <h4 class="font-sans font-bold text-[#0a1628] text-xs sm:text-[13.5px] leading-snug">
-                    Virtual Meetings with Confidence: 90-minute Guide
-                  </h4>
-                  <p class="text-[#64748b] text-[11px] sm:text-xs mt-0.5">
-                    Udemy | Apr 6, 2022 | 1.5 hours
-                  </p>
-                </div>
-              </div>
-
-              <!-- Cert 4 -->
-              <div class="flex items-start gap-3 sm:gap-3.5">
-                <div class="flex-shrink-0 w-8 h-8 rounded-lg bg-[#e0efff] text-[#1d72f2] flex items-center justify-center mt-0.5">
-                  <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                  </svg>
-                </div>
-                <div>
-                  <h4 class="font-sans font-bold text-[#0a1628] text-xs sm:text-[13.5px] leading-snug">
-                    Write Better Emails: Tactics for Smarter Team Communication
-                  </h4>
-                  <p class="text-[#64748b] text-[11px] sm:text-xs mt-0.5">
-                    Udemy | Jan 10, 2022 | 1.5 hours
-                  </p>
-                </div>
-              </div>
-
-              <!-- Cert 5 -->
-              <div class="flex items-start gap-3 sm:gap-3.5">
-                <div class="flex-shrink-0 w-8 h-8 rounded-lg bg-[#e0efff] text-[#1d72f2] flex items-center justify-center mt-0.5">
-                  <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                  </svg>
-                </div>
-                <div>
-                  <h4 class="font-sans font-bold text-[#0a1628] text-xs sm:text-[13.5px] leading-snug">
-                    Leadership 101 &ndash; Eight-Week Leadership Training
-                  </h4>
-                  <p class="text-[#64748b] text-[11px] sm:text-xs mt-0.5">
-                    PHL Talent Development | Dec 13, 2022
-                  </p>
-                </div>
-              </div>
-
-              <!-- Cert 6 -->
-              <div class="flex items-start gap-3 sm:gap-3.5">
-                <div class="flex-shrink-0 w-8 h-8 rounded-lg bg-[#e0efff] text-[#1d72f2] flex items-center justify-center mt-0.5">
-                  <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                  </svg>
-                </div>
-                <div>
-                  <h4 class="font-sans font-bold text-[#0a1628] text-xs sm:text-[13.5px] leading-snug">
-                    LEAD Program Level 2 &ndash; Pillars of Leadership
-                  </h4>
-                  <p class="text-[#64748b] text-[11px] sm:text-xs mt-0.5">
-                    PHL Talent Development | Sep 7, 2023
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
         </div>
 
         <!-- EDUCATION & INTELLECTUAL PROPERTY / INNOVATION -->
