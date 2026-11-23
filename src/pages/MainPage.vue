@@ -709,12 +709,112 @@
             </p>
           </div>
 
-          <!-- 3 Projects Cards Grid -->
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <!-- Card 1: Landing Page Created (Part of Devignlabs) -->
-            <div class="bg-white rounded-2xl p-5 border border-[#e2eaf5] shadow-xs hover:shadow-md transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full group">
+          <!-- 4 Projects Cards Grid: Balanced 2x2 -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-7">
+
+            <!-- Card 1: MFC Badminton Peeps (PWA & Queue Manager) -->
+            <div class="bg-white rounded-2xl p-5 sm:p-6 border border-[#e2eaf5] shadow-xs hover:shadow-md transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full group">
               <div>
-                <div class="relative overflow-hidden rounded-xl mb-4 bg-slate-100 h-44">
+                <div class="relative overflow-hidden rounded-xl mb-4 bg-slate-100 h-48">
+                  <img
+                    src="https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?auto=format&fit=crop&w=800&q=80"
+                    alt="MFC Badminton Peeps Club - Queue and Court Manager"
+                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                  <span class="absolute top-3 right-3 px-2.5 py-1 rounded-full text-[11px] font-semibold bg-emerald-600/90 text-white backdrop-blur-sm shadow-sm flex items-center gap-1.5">
+                    <span class="w-1.5 h-1.5 rounded-full bg-white animate-pulse"></span>
+                    Live PWA App
+                  </span>
+                </div>
+
+                <h3 class="font-sans font-bold text-[#0a1628] text-base sm:text-[17px] mb-1">
+                  MFC Badminton Club — Queue &amp; Court Manager
+                </h3>
+                <p class="text-[#2563eb] text-xs sm:text-[13px] font-semibold mb-2.5">
+                  Interactive Web App &amp; PWA — State Management &amp; Queue Logic
+                </p>
+
+                <!-- Tech Badges -->
+                <div class="flex flex-wrap gap-1.5 mb-3">
+                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-emerald-50 text-emerald-700">JavaScript ES6+</span>
+                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-teal-50 text-teal-700">PWA Manifest</span>
+                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-sky-50 text-sky-700">Queue Engine</span>
+                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-indigo-50 text-indigo-700">Dark / Light UI</span>
+                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-slate-100 text-slate-700">Vercel</span>
+                </div>
+
+                <p class="text-[#64748b] text-xs sm:text-[13px] font-sans leading-relaxed mb-3">
+                  Engineered an interactive Progressive Web App (PWA) managing live player queues and real-time court allocation for a sports community. Features courtside mobile optimization, automated rotation algorithms, dynamic theme modes, and persistent state.
+                </p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-slate-100">
+                <a
+                  href="https://mfcbadmintonpeeps.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="w-full inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-lg bg-emerald-50 hover:bg-emerald-100 text-[#059669] font-semibold text-xs sm:text-[13px] transition-colors"
+                >
+                  Launch Live App
+                  <svg class="w-3.5 h-3.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- Card 2: REST API Validation & Regression Suite -->
+            <div class="bg-white rounded-2xl p-5 sm:p-6 border border-[#e2eaf5] shadow-xs hover:shadow-md transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full group">
+              <div>
+                <div class="relative overflow-hidden rounded-xl mb-4 bg-slate-100 h-48">
+                  <img
+                    src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80"
+                    alt="REST API Validation and Regression Suite"
+                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                  <span class="absolute top-3 right-3 px-2.5 py-1 rounded-full text-[11px] font-semibold bg-emerald-600/90 text-white backdrop-blur-sm shadow-sm flex items-center gap-1.5">
+                    <span class="w-1.5 h-1.5 rounded-full bg-white animate-pulse"></span>
+                    CI Passing
+                  </span>
+                </div>
+
+                <h3 class="font-sans font-bold text-[#0a1628] text-base sm:text-[17px] mb-1">
+                  REST API Validation &amp; Regression Suite
+                </h3>
+                <p class="text-[#2563eb] text-xs sm:text-[13px] font-semibold mb-2.5">
+                  API Testing &amp; Automated CI — Postman &amp; Newman
+                </p>
+
+                <!-- Tech Badges -->
+                <div class="flex flex-wrap gap-1.5 mb-3">
+                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-amber-50 text-amber-700">Postman</span>
+                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-orange-50 text-orange-700">Newman CLI</span>
+                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-purple-50 text-purple-700">GitHub Actions</span>
+                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-blue-50 text-blue-700">REST API</span>
+                </div>
+
+                <p class="text-[#64748b] text-xs sm:text-[13px] font-sans leading-relaxed mb-3">
+                  Sample Postman API testing project covering functional, negative, regression, and API-vs-portal data validation tests with structured defect reporting and Newman CLI automation triggered via GitHub Actions.
+                </p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-slate-100">
+                <a
+                  href="https://github.com/jelmardegoro-byte/postman-api-validation"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="w-full inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-[#0a1628] font-semibold text-xs sm:text-[13px] transition-colors"
+                >
+                  View Repository on GitHub
+                  <svg class="w-3.5 h-3.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- Card 3: Landing Page Created (Part of Devignlabs) -->
+            <div class="bg-white rounded-2xl p-5 sm:p-6 border border-[#e2eaf5] shadow-xs hover:shadow-md transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full group">
+              <div>
+                <div class="relative overflow-hidden rounded-xl mb-4 bg-slate-100 h-48">
                   <img
                     src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
                     alt="Landing Page Created - Devignlabs"
@@ -725,10 +825,10 @@
                   </span>
                 </div>
 
-                <h3 class="font-sans font-bold text-[#0a1628] text-base mb-1">
+                <h3 class="font-sans font-bold text-[#0a1628] text-base sm:text-[17px] mb-1">
                   Landing Page Created
                 </h3>
-                <p class="text-[#2563eb] text-xs sm:text-[12.5px] font-semibold mb-2">
+                <p class="text-[#2563eb] text-xs sm:text-[13px] font-semibold mb-2.5">
                   Frontend Engineering &amp; QA Validation — Devignlabs
                 </p>
 
@@ -749,7 +849,7 @@
                   href="https://www.workwithjimmer.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="w-full inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-lg bg-blue-50 hover:bg-blue-100 text-[#1d72f2] font-semibold text-xs sm:text-[13px] transition-colors"
+                  class="w-full inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-lg bg-blue-50 hover:bg-blue-100 text-[#1d72f2] font-semibold text-xs sm:text-[13px] transition-colors"
                 >
                   View Live Website
                   <svg class="w-3.5 h-3.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -759,10 +859,10 @@
               </div>
             </div>
 
-            <!-- Card 2: Vue.js Component Development -->
-            <div class="bg-white rounded-2xl p-5 border border-[#e2eaf5] shadow-xs hover:shadow-md transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full group">
+            <!-- Card 4: Vue.js Component Development -->
+            <div class="bg-white rounded-2xl p-5 sm:p-6 border border-[#e2eaf5] shadow-xs hover:shadow-md transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full group">
               <div>
-                <div class="relative overflow-hidden rounded-xl mb-4 bg-slate-100 h-44">
+                <div class="relative overflow-hidden rounded-xl mb-4 bg-slate-100 h-48">
                   <img
                     src="@/assets/vue-components.jpg"
                     alt="Vue.js Component Development"
@@ -773,10 +873,10 @@
                   </span>
                 </div>
 
-                <h3 class="font-sans font-bold text-[#0a1628] text-base mb-1">
+                <h3 class="font-sans font-bold text-[#0a1628] text-base sm:text-[17px] mb-1">
                   Vue.js Portfolio Platform
                 </h3>
-                <p class="text-[#2563eb] text-xs sm:text-[12.5px] font-semibold mb-2">
+                <p class="text-[#2563eb] text-xs sm:text-[13px] font-semibold mb-2.5">
                   Frontend Architecture &amp; Automated Builds
                 </p>
 
@@ -797,58 +897,9 @@
                   href="https://github.com/jelmardegoro-byte/jdportforlio"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="w-full inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-lg bg-slate-100 hover:bg-slate-200 text-[#0a1628] font-semibold text-xs sm:text-[13px] transition-colors"
+                  class="w-full inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-[#0a1628] font-semibold text-xs sm:text-[13px] transition-colors"
                 >
                   View Code on GitHub
-                  <svg class="w-3.5 h-3.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-                  </svg>
-                </a>
-              </div>
-            </div>
-
-            <!-- Card 3: REST API Validation & Regression Suite -->
-            <div class="bg-white rounded-2xl p-5 border border-[#e2eaf5] shadow-xs hover:shadow-md transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between h-full group">
-              <div>
-                <div class="relative overflow-hidden rounded-xl mb-4 bg-slate-100 h-44">
-                  <img
-                    src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80"
-                    alt="REST API Validation and Regression Suite"
-                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-                  />
-                  <span class="absolute top-3 right-3 px-2.5 py-1 rounded-full text-[11px] font-semibold bg-emerald-600/90 text-white backdrop-blur-sm shadow-sm flex items-center gap-1">
-                    <span class="w-1.5 h-1.5 rounded-full bg-white animate-pulse"></span>
-                    CI Passing
-                  </span>
-                </div>
-
-                <h3 class="font-sans font-bold text-[#0a1628] text-base mb-1">
-                  REST API Validation &amp; Regression Suite
-                </h3>
-                <p class="text-[#2563eb] text-xs sm:text-[12.5px] font-semibold mb-2">
-                  API Testing &amp; Defect Reporting — Postman &amp; Newman
-                </p>
-
-                <!-- Tech Badges -->
-                <div class="flex flex-wrap gap-1.5 mb-3">
-                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-amber-50 text-amber-700">Postman</span>
-                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-orange-50 text-orange-700">Newman CLI</span>
-                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-purple-50 text-purple-700">GitHub Actions</span>
-                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-blue-50 text-blue-700">REST API</span>
-                </div>
-
-                <p class="text-[#64748b] text-xs sm:text-[13px] font-sans leading-relaxed mb-3">
-                  Sample Postman API testing project covering functional, negative, regression, and API-vs-portal data validation tests with structured defect reporting and Newman CLI automation.
-                </p>
-              </div>
-              <div class="mt-4 pt-3 border-t border-slate-100">
-                <a
-                  href="https://github.com/jelmardegoro-byte/postman-api-validation"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="w-full inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-lg bg-slate-100 hover:bg-slate-200 text-[#0a1628] font-semibold text-xs sm:text-[13px] transition-colors"
-                >
-                  View Repository on GitHub
                   <svg class="w-3.5 h-3.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
                   </svg>
