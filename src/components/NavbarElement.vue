@@ -35,6 +35,7 @@
           <a
             href="/Jelmar_Degoro_Resume.pdf"
             target="_blank"
+            rel="noopener noreferrer"
             download="Jelmar_Degoro_Resume.pdf"
             class="text-sm font-sans font-medium text-[#a0b0c6] hover:text-white transition-colors duration-200 flex items-center gap-1.5"
           >
@@ -45,7 +46,10 @@
           <!-- Contact Button -->
           <a
             href="#contact"
-            class="ml-2 px-5 py-2 rounded-full border border-[#3b82f6] text-[#3b82f6] hover:bg-[#3b82f6] hover:text-white font-semibold text-sm transition-all duration-200 hover:scale-105 active:scale-95 inline-block text-center whitespace-nowrap"
+            class="ml-2 px-5 py-2 rounded-full border border-[#3b82f6] font-semibold text-sm transition-all duration-200 hover:scale-105 active:scale-95 inline-block text-center whitespace-nowrap"
+            :class="activeSection === 'contact' 
+              ? 'bg-[#3b82f6] text-white shadow-md shadow-blue-500/30' 
+              : 'text-[#3b82f6] hover:bg-[#3b82f6] hover:text-white'"
           >
             Contact
           </a>
@@ -132,6 +136,7 @@
           <a
             href="/Jelmar_Degoro_Resume.pdf"
             target="_blank"
+            rel="noopener noreferrer"
             download="Jelmar_Degoro_Resume.pdf"
             @click="closeSidebar"
             class="text-sm font-sans font-medium text-[#3b82f6] hover:text-blue-300 py-2 px-3 transition-colors flex items-center gap-2 mt-2 border-t border-slate-800 pt-3"
@@ -146,7 +151,8 @@
         <a
           href="#contact"
           @click="closeSidebar"
-          class="block w-full py-2.5 rounded-full border border-[#3b82f6] text-[#3b82f6] hover:bg-[#3b82f6] hover:text-white font-semibold text-center text-sm transition-all duration-200"
+          class="block w-full py-2.5 rounded-full border border-[#3b82f6] font-semibold text-center text-sm transition-all duration-200"
+          :class="activeSection === 'contact' ? 'bg-[#3b82f6] text-white shadow-md shadow-blue-500/30' : 'text-[#3b82f6] hover:bg-[#3b82f6] hover:text-white'"
         >
           Contact
         </a>

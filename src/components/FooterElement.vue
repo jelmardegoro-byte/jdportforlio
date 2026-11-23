@@ -55,6 +55,7 @@
         <a
           href="/Jelmar_Degoro_Resume.pdf"
           target="_blank"
+          rel="noopener noreferrer"
           download="Jelmar_Degoro_Resume.pdf"
           class="text-xs sm:text-[13px] font-sans font-medium text-[#3b82f6] hover:text-white transition-colors duration-200 inline-flex items-center gap-1"
         >
@@ -113,7 +114,7 @@
     <!-- BOTTOM: Copyright -->
     <div class="max-w-[1300px] mx-auto mt-5 pt-4 border-t border-[#132338] flex flex-col sm:flex-row items-center justify-between text-xs text-[#8fa3bf]">
       <p>&copy; {{ new Date().getFullYear() }} All rights reserved by Jelmar Degoro</p>
-      <p class="mt-1 sm:mt-0">Made with <span class="text-white">&hearts;</span> by JokerJel</p>
+      <p class="mt-1 sm:mt-0">Built with Vue.js &amp; Tailwind CSS &bull; Jelmar Degoro</p>
     </div>
   </footer>
 </template>
