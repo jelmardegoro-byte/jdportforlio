@@ -94,7 +94,7 @@
             <!-- Quick Credibility Metrics -->
             <div class="mt-6 pt-5 border-t border-slate-700/60 grid grid-cols-3 gap-3 max-w-md mx-auto md:mx-0 text-center md:text-left">
               <div>
-                <p class="font-sans font-extrabold text-white text-lg sm:text-xl">5+ <span class="text-[#3b82f6] text-sm font-semibold">Yrs</span></p>
+                <p class="font-sans font-extrabold text-white text-lg sm:text-xl">6+ <span class="text-[#3b82f6] text-sm font-semibold">Yrs</span></p>
                 <p class="text-[#8fa3bf] text-[11px] sm:text-xs">Enterprise QA</p>
               </div>
               <div class="border-x border-slate-700/60 px-2">
@@ -163,12 +163,12 @@
             <!-- Main Heading -->
             <h2 class="font-sans font-extrabold text-[#0a1628] text-2xl sm:text-3xl lg:text-[38px] xl:text-[40px] leading-[1.2] tracking-tight mb-5 sm:mb-6">
               QA Engineer &amp; Full-Stack Developer<br class="hidden sm:inline" />
-              with 5+ Years of Experience
+              with 6+ Years of Experience
             </h2>
 
             <!-- Paragraph 1 -->
             <p class="text-[#475569] text-sm sm:text-[15px] lg:text-base font-sans leading-[1.7] mb-4 sm:mb-5">
-              I'm a QA Engineer and Full-Stack Developer with over five years of enterprise experience in software quality assurance, web application engineering, insurance workflow configuration, and technical troubleshooting. I combine rigorous testing methodologies (functional, regression, API with Postman, and UAT) with modern full-stack web development using Laravel, Vue.js 3, and Tailwind CSS to build reliable, high-performance web solutions.
+              I'm a QA Engineer and Full-Stack Developer with over six years of enterprise experience in software quality assurance, web application engineering, insurance workflow configuration, and technical troubleshooting. I combine rigorous testing methodologies (functional, regression, API with Postman, and UAT) with modern full-stack web development using Laravel, Vue.js 3, and Tailwind CSS to build reliable, high-performance web solutions.
             </p>
 
             <!-- Paragraph 2 -->
@@ -769,27 +769,27 @@
                     class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                   />
                   <span class="absolute top-3 right-3 px-2.5 py-1 rounded-full text-[11px] font-semibold bg-emerald-600/90 text-white backdrop-blur-sm shadow-sm">
-                    Full-Stack Platform
+                    Frontend Architecture
                   </span>
                 </div>
 
                 <h3 class="font-sans font-bold text-[#0a1628] text-base mb-1">
-                  Vue.js + Laravel Portfolio Platform
+                  Vue.js Portfolio Platform
                 </h3>
                 <p class="text-[#2563eb] text-xs sm:text-[12.5px] font-semibold mb-2">
-                  Full-Stack Architecture &amp; Automated Testing
+                  Frontend Architecture &amp; Automated Builds
                 </p>
 
                 <!-- Tech Badges -->
                 <div class="flex flex-wrap gap-1.5 mb-3">
                   <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-emerald-50 text-emerald-700">Vue.js 3</span>
-                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-rose-50 text-rose-700">Laravel</span>
                   <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-sky-50 text-sky-700">Tailwind CSS</span>
-                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-indigo-50 text-indigo-700">REST API</span>
+                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-indigo-50 text-indigo-700">Responsive UI</span>
+                  <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-slate-100 text-slate-700">CI &amp; SEO</span>
                 </div>
 
                 <p class="text-[#64748b] text-xs sm:text-[13px] font-sans leading-relaxed mb-3">
-                  Engineered this portfolio platform using Vue.js 3, Tailwind CSS, and a Laravel backend architecture. Features optimized sub-second load times, JSON-LD structured data, and zero-error test verification.
+                  Engineered this personal portfolio platform using Vue.js 3 and Tailwind CSS. Features optimized sub-second load times, JSON-LD structured data, accessible design, and zero-error build verification.
                 </p>
               </div>
               <div class="mt-4 pt-3 border-t border-slate-100">
