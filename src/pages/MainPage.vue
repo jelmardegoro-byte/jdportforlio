@@ -594,7 +594,42 @@
           <div class="absolute left-1.5 sm:left-2 top-2.5 bottom-6 w-[2px] bg-[#93c5fd]"></div>
 
           <div class="space-y-10 sm:space-y-12">
-            <!-- Experience 1: Zywave -->
+            <!-- Experience 1: Freelance / Independent Consultant -->
+            <div class="relative flex flex-col md:flex-row md:items-start pl-8 sm:pl-10 gap-3 md:gap-8 lg:gap-14">
+              <!-- Dot with subtle accent to indicate current active role -->
+              <div class="absolute left-0 sm:left-0.5 top-1.5 w-3 h-3 rounded-full bg-emerald-500 ring-4 ring-white"></div>
+
+              <!-- Left: Company, Role & Date -->
+              <div class="w-full md:w-[260px] lg:w-[290px] flex-shrink-0">
+                <div class="flex items-center gap-2">
+                  <h3 class="font-sans font-bold text-[#0a1628] text-base sm:text-[17px] leading-snug">
+                    Freelance / Independent
+                  </h3>
+                  <span class="px-2 py-0.5 rounded-full text-[10px] font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200">
+                    Present
+                  </span>
+                </div>
+                <p class="text-[#2563eb] text-xs sm:text-sm font-semibold mt-0.5">
+                  QA Engineer &amp; Full-Stack Developer
+                </p>
+                <p class="text-[#64748b] text-xs sm:text-[13px] mt-0.5">
+                  October 2025 &ndash; Present
+                </p>
+              </div>
+
+              <!-- Right: Bullets -->
+              <div class="flex-1">
+                <ul class="space-y-1.5 sm:space-y-2 text-[#475569] text-xs sm:text-[13.5px] leading-relaxed list-disc list-outside pl-4">
+                  <li>Deliver contract software QA, automated API validation suites, and responsive frontend web applications for private clients and community organizations.</li>
+                  <li>Architected and deployed an interactive Progressive Web App (MFC Badminton Club Queue &amp; Court Manager) with mobile-first courtside UX, automated rotation logic, and real-time state management.</li>
+                  <li>Engineered and QA-verified production client landing pages (Devignlabs) with 100% mobile responsiveness, cross-browser compatibility, and sub-second load times.</li>
+                  <li>Designed automated Postman API test collections executed via Newman CLI in GitHub Actions CI workflows for automated regression verification.</li>
+                  <li>Perform comprehensive functional, UI viewport, and regression testing across modern web stacks (Vue.js 3, Tailwind CSS, REST APIs).</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Experience 2: Zywave -->
             <div class="relative flex flex-col md:flex-row md:items-start pl-8 sm:pl-10 gap-3 md:gap-8 lg:gap-14">
               <!-- Dot -->
               <div class="absolute left-0 sm:left-0.5 top-1.5 w-3 h-3 rounded-full bg-[#1d72f2] ring-4 ring-white"></div>
@@ -605,7 +640,7 @@
                   Zywave
                 </h3>
                 <p class="text-[#2563eb] text-xs sm:text-sm font-semibold mt-0.5">
-                  Configuration Analyst / Quality Assurance
+                  QA &amp; Configuration Analyst
                 </p>
                 <p class="text-[#64748b] text-xs sm:text-[13px] mt-0.5">
                   September 2021 &ndash; October 2025
